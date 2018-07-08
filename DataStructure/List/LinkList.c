@@ -36,7 +36,7 @@ Status ListInsert_L(LinkList *L, int i, ElemType e) {
     printf("%d, %d\n", i, s->data);
     (*L)->data = (*L)->data + 1;        // 表长加1
     return OK;
-}
+} // ListInsert_L
 
 void display(LinkList L) {
     printf("the link length is: %d\n", L->data);
