@@ -24,6 +24,7 @@ Status CreateBiTree(BiTree *T) {
     char ch;
     printf("please enter node:");
     scanf("%c", &ch);
+    
     if (ch == '#') {
         T = NULL;
         printf("NULL\n");
@@ -47,6 +48,8 @@ Status PreOrderTraverse(BiTree T, Status (*Visit)(TElemType e)) {
         return ERROR;
     } else return OK;
 } // PreOrderTraverse
+
+
 
 Status PrintElement(TElemType e) {
     printf("%c", e);
