@@ -53,6 +53,8 @@ Status Pop(SqStack *S, SElemType *e) {
     *e = *--S->top;
     return OK;
 }
+
+
 int main() {
     SqStack ss;
     SElemType e;
