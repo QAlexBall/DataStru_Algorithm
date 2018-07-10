@@ -54,8 +54,26 @@ Status PreOrderTraverse(BiTree T, Status (*Visit)(TElemType e)) {
         return ERROR;
     } else return OK;
 } // PreOrderTraverse
+
+Status InOrder(BiTree T, Status (*Visit)(TElemType e)) {
+    if(T) {
+        if(InOrder(T->lchild, Visit))
+            if(Visit(T->data))
+                if(InOrder(T->rchild, Visit)) return OK;
+        return ERROR;
+    } else return OK;
+} // InOrder
+
+Status PostOrder(BiTree T, Status (*Visit)(TElemType e)) {
+    if(T) {
+        if(PostOrder(T->lchild, Visit))
+            if(PostOrder(T->rchild, Visit));
+                if(Visit(T->data)) return OK;
+        return ERROR;
+    } else return OK;
+} // PostOrder
 Status PrintElement(TElemType e) {
-    printf("%c\n", e);
+    printf("%c ", e);
     return OK;
 }
 Status InitStack(SqStack *S) {
@@ -126,6 +144,8 @@ int main() {
     BiTree BT;
     CreateBiTree(&BT);
     PreOrderTraverse(BT, PrintElement);
+    InOrder(BT, PrintElement);
+    PostOrder(BT, PrintElement);
     InOrderTraverse(BT, PrintElement);
     return 0;
 }
