@@ -11,6 +11,5 @@ int main(void) {
 	puts(pt1);
 	words[8] = 'p';
 	puts(words);
-
 	return 0;
 }
