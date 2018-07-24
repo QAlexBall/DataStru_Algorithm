@@ -9,15 +9,20 @@ int main(int argc, char *argv[]) {
 	int ch;
 	char name[LEN];		// 存储输出文件名
 
-	// 检查命令行参数
+	/*检查命令行参数*/
 	if(argc < 2) {
 		fprintf(stderr, "Usage: %s filename\n", argv[0]);
 		exit(EXIT_FAILURE);
 	}
-	// 设置输入
+	/*设置输入*/
 	if ((in = fopen(argv[1], "r")) == NULL) {
 		fprintf(stderr, "I couldn't open file the file \"%s\"\n", argv[1]);
 		exit(EXIT_FAILURE);
 	}
-	// 设置输出
+	/*设置输出*/
+	strncpy(name, argv[1], LEN - 5);	// 拷贝文件名
+	name[LEN - 5] = '\0';
+	strcat(name, ".red"); 			// 在文件名后添加.red
+
+	return 0;
 }
