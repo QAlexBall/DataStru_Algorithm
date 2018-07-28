@@ -17,5 +17,6 @@ int main(void) {
 	puts("key at the beginning of a lineto terminate.");
 	while((fscanf(stdin, "%40s", words) == 1) && (words[0] != '#'))
 		fprintf(fp, "%s\n", words);
+	
 	return 0;
 }
