@@ -16,6 +16,8 @@ int main(void) {
 }
 
 void critic(void) {
-        
-}
+        /*删除了可选的重复声明       */
+        printf("No luck, my friend. Try again.\n");
+        scanf("%d", &units);
+}       
 
