@@ -67,7 +67,7 @@ Status InOrder(BiTree T, Status (*Visit)(TElemType e)) {
 Status PostOrder(BiTree T, Status (*Visit)(TElemType e)) {
     if(T) {
         if(PostOrder(T->lchild, Visit))
-            if(PostOrder(T->rchild, Visit));
+            if(PostOrder(T->rchild, Visit))
                 if(Visit(T->data)) return OK;
         return ERROR;
     } else return OK;
