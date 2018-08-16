@@ -1,8 +1,7 @@
 #include <stdio.h>
- 
 #define  GET_MAX 	0
 #define  GET_MIN 	1
- 
+
 int get_max(int i, int j) {
 	return i > j ? i : j;
 }
@@ -10,7 +9,6 @@ int get_max(int i, int j) {
 int get_min(int i, int j) {
 	return i > j ? j : i;
 }
- 
 int compare(int i, int j, int flag) {
 	int ret;
 	//这里定义了一个函数指针，就可以根据传入的flag，灵活地决定其是指向求大数或求小数的函数
