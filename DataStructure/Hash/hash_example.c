@@ -54,7 +54,12 @@ static inline void hlist_add_before(struct hlist_node *n, struct hlist_node *nex
  * next: add node after next
  */
 static inline void hlist_add_after(struct hlist_node *n, struct hlist_node *next) {
-        
+        n->next = next->next;
+        next->next = n;
+        n->pprev = &next->next;
+
+        if(n->next)
+                n->next->pprev = &n->next;
 }
 
 /**
@@ -74,6 +79,25 @@ static inline void hlis_del(struct hlist_node *n) {
         /*n->pprev = LIST_POISON2;*/
 }
 
+
+/*
+ * 判断一个结点是否已经存在与hash桶中
+ * 判断h->prev是不是为空,如果pprev的指向是空,表示这个结点没有到添加到这个链表
+ * 如果为空,返回true,否则返回false
+ */
+static inline int hlist_unhashed(const struct hlist_node *h) {
+        return !h->pprev;
+}
+
+/**
+ * 遍历
+ */
+/* ptr: 表示struct hlist_node类型的一个地址
+ * type: 结构体名
+ * member: type结构体中的hlist_node成员变量的名称
+ * 表示得到ptr所指地址的这个结构体的首地址
+ */
+#define hlist_entry(ptr, type, member) container_of(ptr, type, member)
 
 
 
