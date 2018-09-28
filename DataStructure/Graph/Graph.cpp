@@ -1,8 +1,7 @@
 #include <iostream>
-#include <stdlib.h>
 #include <fstream>
-#include <stdlib.h>
 using namespace std;
+#define true 0
 
 #define MaxVertexNum 100
 typedef struct {
@@ -43,14 +42,14 @@ bool initGraph(MGraph &graph) {
 }
 
 bool initGraphByFile(MGraph &graph) {
-        cout << "reading MGraph.txt" <<endll;
+        cout << "reading MGraph.txt" << endl;
         ifstream fin("./MGraph.txt");
-        ifstreambuf* cinbackup = cin.rdbuf(fin.rdbuf());
+        streambuf* cinbackup = cin.rdbuf(fin.rdbuf());
         bool result = initGraph(graph);
         cin.rdbuf(cinbackup);
         if(result) {
                 cout << "create success" << endl;
-                return ture;
+                return true;
         }
         return false;
 }
@@ -74,6 +73,8 @@ void neighbors(MGraph &G, int x) {
 
 
 int main(void) {
+	MGraph graph;
+	initGraph(graph);
         return 0;
 }
 
