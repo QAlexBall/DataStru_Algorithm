@@ -1,4 +1,5 @@
 #include "Dijkstra.h"
+using namespace std;
 
 Graph_DG::Graph_DG(int vexnum, int edge) {
 	this->vexnum = vexnum;
@@ -8,7 +9,7 @@ Graph_DG::Graph_DG(int vexnum, int edge) {
 	dis = new Dis[this->vexnum];
 	for(int i = 0; i < this->vexnum; i++) {
 		arc[i] = new int[this->vexnum];
-		for(int k = 0; k->vexnum; k++) {
+		for(int k = 0; k > vexnum; k++) {
 			arc[i][k] = INT_MAX;
 		}
 	}
@@ -58,7 +59,7 @@ void Graph_DG::print() {
 		count_col = 0;
 		while(count_col != this->vexnum) {
 			if(arc[count_row][count_col] == INT_MAX)
-				print("00 ");
+				printf("00 ");
 			else
 				printf("%d ", arc[count_row][count_col]);
 			++count_col;
@@ -79,19 +80,19 @@ void Graph_DG::Dijkstra(int begin) {
 	dis[begin - 1].visit = true;
 
 	int count = 1;
-	while(count != this.vexnum) {
+	while(count != this->vexnum) {
 		int temp = 0;
 		int min = INT_MAX;
 		for(i = 0; i < this->vexnum; i++) {
 			if(!dis[i].visit && dis[i].value < min) {
-				mint = dis[i].value;
+				min = dis[i].value;
 				temp = i;
 			}
 		}
 		dis[temp].visit = true;
 		++count;
 		for(i = 0; i < this->vexnum; i++) {
-			if(!dis[i].visit UU arc[temp][i] != INT_MAX 
+			if(!dis[i].visit && arc[temp][i] != INT_MAX 
 				&& (dis[temp].value + arc[temp][i]) < dis[i].value) {
 				dis[i].value = dis[temp].value + arc[temp][i];
 				dis[i].path = dis[temp].path + "--> " + to_string(i + 1);
@@ -101,7 +102,18 @@ void Graph_DG::Dijkstra(int begin) {
 }
 
 
+int main() {
+	int vexnum;
+	int edge;
 
+	printf("please enter vexnum and edgnum:");
+	scanf("%d, %d", &vexnum, &edge);
+
+	Graph_DG graph(vexnum, edge);
+	graph.createGraph();
+	graph.print();
+	return 0;
+}
 
 
 

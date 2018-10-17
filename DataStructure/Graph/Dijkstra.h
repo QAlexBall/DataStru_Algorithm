@@ -2,7 +2,9 @@
 #include <iostream>
 #include <string>
 using namespace std;
-
+#define INT_MAX 99999
+#define false 0
+#define true 1
 struct Dis {
 	string path;
 	int value;

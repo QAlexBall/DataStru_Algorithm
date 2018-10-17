@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/CppPrimerPlus.dir/main.cpp.o CMakeFiles/CppPrimerPlus.dir/OOP/stock00.cpp.o  -o CppPrimerPlus 

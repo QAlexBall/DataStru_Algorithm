@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimerPlus/OOP/stock00.cpp
+iostream
+-
+stock00.h
+/home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimerPlus/OOP/stock00.h
+
+/home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimerPlus/OOP/stock00.h
+string
+-
+
