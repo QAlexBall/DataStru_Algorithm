@@ -6,13 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimerPlus/OOP/stock00.cpp
-iostream
--
-stock00.h
-/home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimerPlus/OOP/stock00.h
-
 /home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimerPlus/OOP/stock00.h
 string
 -
+
+/home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimerPlus/main.cpp
+iostream
+-
+OOP/stock00.h
+/home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimerPlus/OOP/stock00.h
 

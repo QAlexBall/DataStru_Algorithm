@@ -17,7 +17,10 @@ private:
     void set_tot() { total_val = shares * share_val; }
 
 public:
-    void acquire(const std::string & co, long n, double pr); // 某个公司股票的首次购买
+    Stock();
+    Stock(const std::string & co, long n = 0, double pr = 0.0);
+    ~Stock();
+    // void acquire(const std::string & co, long n, double pr); // 某个公司股票的首次购买
     void buy(long num, double price);                        // 管理增加持有的股票
     void sell(long num, double price);                       // 管理减少持有的股票
     void update(double price);
