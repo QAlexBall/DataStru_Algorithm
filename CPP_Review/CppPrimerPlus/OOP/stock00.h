@@ -7,8 +7,7 @@
 
 #include <string>
 
-class Stock // class declaration
-{
+class Stock {
 private:
     std::string company = "apple";
     long shares;

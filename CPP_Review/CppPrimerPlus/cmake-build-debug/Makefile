@@ -123,6 +123,60 @@ CppPrimerPlus/fast:
 	$(MAKE) -f CMakeFiles/CppPrimerPlus.dir/build.make CMakeFiles/CppPrimerPlus.dir/build
 .PHONY : CppPrimerPlus/fast
 
+OOP/mytime0.o: OOP/mytime0.cpp.o
+
+.PHONY : OOP/mytime0.o
+
+# target to build an object file
+OOP/mytime0.cpp.o:
+	$(MAKE) -f CMakeFiles/CppPrimerPlus.dir/build.make CMakeFiles/CppPrimerPlus.dir/OOP/mytime0.cpp.o
+.PHONY : OOP/mytime0.cpp.o
+
+OOP/mytime0.i: OOP/mytime0.cpp.i
+
+.PHONY : OOP/mytime0.i
+
+# target to preprocess a source file
+OOP/mytime0.cpp.i:
+	$(MAKE) -f CMakeFiles/CppPrimerPlus.dir/build.make CMakeFiles/CppPrimerPlus.dir/OOP/mytime0.cpp.i
+.PHONY : OOP/mytime0.cpp.i
+
+OOP/mytime0.s: OOP/mytime0.cpp.s
+
+.PHONY : OOP/mytime0.s
+
+# target to generate assembly for a file
+OOP/mytime0.cpp.s:
+	$(MAKE) -f CMakeFiles/CppPrimerPlus.dir/build.make CMakeFiles/CppPrimerPlus.dir/OOP/mytime0.cpp.s
+.PHONY : OOP/mytime0.cpp.s
+
+OOP/mytime1.o: OOP/mytime1.cpp.o
+
+.PHONY : OOP/mytime1.o
+
+# target to build an object file
+OOP/mytime1.cpp.o:
+	$(MAKE) -f CMakeFiles/CppPrimerPlus.dir/build.make CMakeFiles/CppPrimerPlus.dir/OOP/mytime1.cpp.o
+.PHONY : OOP/mytime1.cpp.o
+
+OOP/mytime1.i: OOP/mytime1.cpp.i
+
+.PHONY : OOP/mytime1.i
+
+# target to preprocess a source file
+OOP/mytime1.cpp.i:
+	$(MAKE) -f CMakeFiles/CppPrimerPlus.dir/build.make CMakeFiles/CppPrimerPlus.dir/OOP/mytime1.cpp.i
+.PHONY : OOP/mytime1.cpp.i
+
+OOP/mytime1.s: OOP/mytime1.cpp.s
+
+.PHONY : OOP/mytime1.s
+
+# target to generate assembly for a file
+OOP/mytime1.cpp.s:
+	$(MAKE) -f CMakeFiles/CppPrimerPlus.dir/build.make CMakeFiles/CppPrimerPlus.dir/OOP/mytime1.cpp.s
+.PHONY : OOP/mytime1.cpp.s
+
 OOP/stack.o: OOP/stack.cpp.o
 
 .PHONY : OOP/stack.o
@@ -213,6 +267,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... CppPrimerPlus"
+	@echo "... OOP/mytime0.o"
+	@echo "... OOP/mytime0.i"
+	@echo "... OOP/mytime0.s"
+	@echo "... OOP/mytime1.o"
+	@echo "... OOP/mytime1.i"
+	@echo "... OOP/mytime1.s"
 	@echo "... OOP/stack.o"
 	@echo "... OOP/stack.i"
 	@echo "... OOP/stack.s"

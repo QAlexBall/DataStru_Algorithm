@@ -2,6 +2,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/CppPrimerPlus.dir/main.cpp.o"
   "CMakeFiles/CppPrimerPlus.dir/OOP/stock00.cpp.o"
   "CMakeFiles/CppPrimerPlus.dir/OOP/stack.cpp.o"
+  "CMakeFiles/CppPrimerPlus.dir/OOP/mytime0.cpp.o"
+  "CMakeFiles/CppPrimerPlus.dir/OOP/mytime1.cpp.o"
   "CppPrimerPlus.pdb"
   "CppPrimerPlus"
 )

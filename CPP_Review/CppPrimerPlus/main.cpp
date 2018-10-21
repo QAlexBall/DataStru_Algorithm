@@ -2,6 +2,9 @@
 #include "OOP/stock00.h"
 #include <cctype>
 #include "OOP/stack.h"
+#include "OOP/mytime0.h"
+#include "OOP/mytime1.h"
+
 void UseStock() {
     Stock fluffy_the_cat("NanoSmart", 20, 12.5);
     fluffy_the_cat.show();
@@ -113,11 +116,79 @@ void UseStack() {
     }
 
 }
+
+void UseTime0() {
+    using std::cout;
+    using std::endl;
+    Time planning;
+    Time coding(2, 40);
+    Time fixing(5, 55);
+    Time total;
+
+    cout << "planning time = ";
+    planning.Show();
+    cout << endl;
+
+    cout << "coding time = ";
+    coding.Show();
+    cout << endl;
+
+    cout << "fixing time = ";
+    fixing.Show();
+    cout << endl;
+
+    total = coding.Sum(fixing);
+    cout << "coding.Sum(fixing) = ";
+    total.Show();
+    cout << endl;
+}
+
+void UseTime1() {
+    using std::cout;
+    using std::endl;
+    Time1 planning;
+    Time1 coding(2, 40);
+    Time1 fixing(5, 55);
+    Time1 total;
+
+    cout << "planning time = ";
+    planning.Show();
+    cout << endl;
+
+    cout << "coding time = ";
+    coding.Show();
+    cout << endl;
+
+    cout << "fixing time = ";
+    fixing.Show();
+    cout << endl;
+
+    total = coding + fixing;
+    // operator notation
+    cout << "coding + fixing = ";
+    total.Show();
+    cout << endl;
+
+    Time1 morefixing(3, 28);
+    cout << "more fixing time = ";
+    morefixing.Show();
+    cout << endl;
+    total = morefixing.operator+(total);
+
+    // function notation
+    cout << "morefixing.operator+(total) = ";
+    total.Show();
+    cout << endl;
+
+}
 int main() {
 //    UseStock2();
 //    UseStock();
 //    UseListForClass();
 //    UseStock2WithArrayClass();
-    UseStack();
+//    UseStack();
+    UseTime0();
+    std::cout << std::endl;
+    UseTime1();
     return 0;
 }
