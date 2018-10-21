@@ -1,6 +1,7 @@
 #include <iostream>
 #include "OOP/stock00.h"
-
+#include <cctype>
+#include "OOP/stack.h"
 void UseStock() {
     Stock fluffy_the_cat("NanoSmart", 20, 12.5);
     fluffy_the_cat.show();
@@ -42,14 +43,81 @@ void UseStock2() {
     }
 }
 
+void UseStock2WithArrayClass() {
+    const int STKS = 4;
+
+    Stock stocks[STKS] = {
+            Stock("NanoSmart", 12, 20.0),
+            Stock("Boffo Objects", 200, 2.0),
+            Stock("Monolithic Obelisks", 130, 3.25),
+            Stock("Fleep Enterprises", 60, 6.5)
+    };
+
+    std::cout << "Stock holdings:\n";
+    int st;
+    for (st = 0; st < STKS; st++) {
+        stocks[st].show();
+    }
+
+    const Stock * top = &stocks[0];
+    for (st = 1; st < STKS; st++) {
+        top = &top->topval(stocks[st]);
+    }
+    std::cout << "\nMost valuable holding:\n";
+    top->show();
+}
+
 void UseListForClass() {
     Stock hot_tip = {"Derivatives Plus Plus", 100, 45.0};   // c++11中可以将列表初始化语法用于类
     hot_tip.show();
     Stock jock {"Sport Age Storage, Inc"};
 }
+
+void UseStack() {
+    {
+        using namespace std;
+        Stack st; // create an empty stack;
+        char ch;
+        unsigned long po;
+        cout << "Please enter A to  add a purchase order,\n"
+             << "P to process a PO, or Q to quit.\n";
+        while (cin >> ch && toupper(ch) != 'Q') {
+            while (cin.get() != '\n')
+                continue;
+            if (!isalpha(ch)) {
+                cout << '\a';
+                continue;
+            }
+            switch (ch) {
+                case 'A':
+                case 'a': cout << "Enter a PO number to add: ";
+                          cin >> po;
+                          if (st.isfull())
+                              cout << "stack already full\n";
+                          else
+                              st.push(po);
+                          break;
+                case 'P':
+                case 'p': if (st.isempty())
+                              cout << "stack already empty\n";
+                          else {
+                              st.pop(po);
+                              cout << "PO #" << po << " poped\n";
+                          }
+                          break;
+            }
+            cout << "Please enter A to add a purchase order,\n"
+                 << "P to process a PO, or Q to quit.\n";
+        }
+        cout << "Bye\n";
+    }
+
+}
 int main() {
 //    UseStock2();
 //    UseStock();
-    UseListForClass();
+//    UseListForClass();
+//    UseStock2WithArrayClass();
+    UseStack();
     return 0;
 }

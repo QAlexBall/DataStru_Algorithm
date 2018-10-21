@@ -25,7 +25,9 @@ public:
     void sell(long num, double price);                       // 管理减少持有的股票
     void update(double price);
     void show1();//
-    void show();
+    void show() const;
+    const Stock & topval(const Stock & s) const;
+
 };  // note semicolon at the end;
 
 #endif //STOCK00_H_

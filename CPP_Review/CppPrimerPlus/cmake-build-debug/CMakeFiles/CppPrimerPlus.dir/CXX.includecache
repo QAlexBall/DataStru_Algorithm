@@ -6,6 +6,8 @@
 
 #IncludeRegexTransform: 
 
+/home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimerPlus/OOP/stack.h
+
 /home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimerPlus/OOP/stock00.h
 string
 -
@@ -15,4 +17,8 @@ iostream
 -
 OOP/stock00.h
 /home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimerPlus/OOP/stock00.h
+cctype
+-
+OOP/stack.h
+/home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimerPlus/OOP/stack.h
 

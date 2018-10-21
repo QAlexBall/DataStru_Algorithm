@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimerPlus/OOP/stack.cpp" "/home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimerPlus/cmake-build-debug/CMakeFiles/CppPrimerPlus.dir/OOP/stack.cpp.o"
   "/home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimerPlus/OOP/stock00.cpp" "/home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimerPlus/cmake-build-debug/CMakeFiles/CppPrimerPlus.dir/OOP/stock00.cpp.o"
   "/home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimerPlus/main.cpp" "/home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimerPlus/cmake-build-debug/CMakeFiles/CppPrimerPlus.dir/main.cpp.o"
   )

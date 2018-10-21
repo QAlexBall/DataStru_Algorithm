@@ -123,6 +123,33 @@ CppPrimerPlus/fast:
 	$(MAKE) -f CMakeFiles/CppPrimerPlus.dir/build.make CMakeFiles/CppPrimerPlus.dir/build
 .PHONY : CppPrimerPlus/fast
 
+OOP/stack.o: OOP/stack.cpp.o
+
+.PHONY : OOP/stack.o
+
+# target to build an object file
+OOP/stack.cpp.o:
+	$(MAKE) -f CMakeFiles/CppPrimerPlus.dir/build.make CMakeFiles/CppPrimerPlus.dir/OOP/stack.cpp.o
+.PHONY : OOP/stack.cpp.o
+
+OOP/stack.i: OOP/stack.cpp.i
+
+.PHONY : OOP/stack.i
+
+# target to preprocess a source file
+OOP/stack.cpp.i:
+	$(MAKE) -f CMakeFiles/CppPrimerPlus.dir/build.make CMakeFiles/CppPrimerPlus.dir/OOP/stack.cpp.i
+.PHONY : OOP/stack.cpp.i
+
+OOP/stack.s: OOP/stack.cpp.s
+
+.PHONY : OOP/stack.s
+
+# target to generate assembly for a file
+OOP/stack.cpp.s:
+	$(MAKE) -f CMakeFiles/CppPrimerPlus.dir/build.make CMakeFiles/CppPrimerPlus.dir/OOP/stack.cpp.s
+.PHONY : OOP/stack.cpp.s
+
 OOP/stock00.o: OOP/stock00.cpp.o
 
 .PHONY : OOP/stock00.o
@@ -186,6 +213,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... CppPrimerPlus"
+	@echo "... OOP/stack.o"
+	@echo "... OOP/stack.i"
+	@echo "... OOP/stack.s"
 	@echo "... OOP/stock00.o"
 	@echo "... OOP/stock00.i"
 	@echo "... OOP/stock00.s"
