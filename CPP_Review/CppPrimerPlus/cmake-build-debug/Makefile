@@ -231,6 +231,33 @@ OOP/stock00.cpp.s:
 	$(MAKE) -f CMakeFiles/CppPrimerPlus.dir/build.make CMakeFiles/CppPrimerPlus.dir/OOP/stock00.cpp.s
 .PHONY : OOP/stock00.cpp.s
 
+Thread/test.o: Thread/test.cpp.o
+
+.PHONY : Thread/test.o
+
+# target to build an object file
+Thread/test.cpp.o:
+	$(MAKE) -f CMakeFiles/CppPrimerPlus.dir/build.make CMakeFiles/CppPrimerPlus.dir/Thread/test.cpp.o
+.PHONY : Thread/test.cpp.o
+
+Thread/test.i: Thread/test.cpp.i
+
+.PHONY : Thread/test.i
+
+# target to preprocess a source file
+Thread/test.cpp.i:
+	$(MAKE) -f CMakeFiles/CppPrimerPlus.dir/build.make CMakeFiles/CppPrimerPlus.dir/Thread/test.cpp.i
+.PHONY : Thread/test.cpp.i
+
+Thread/test.s: Thread/test.cpp.s
+
+.PHONY : Thread/test.s
+
+# target to generate assembly for a file
+Thread/test.cpp.s:
+	$(MAKE) -f CMakeFiles/CppPrimerPlus.dir/build.make CMakeFiles/CppPrimerPlus.dir/Thread/test.cpp.s
+.PHONY : Thread/test.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -279,6 +306,9 @@ help:
 	@echo "... OOP/stock00.o"
 	@echo "... OOP/stock00.i"
 	@echo "... OOP/stock00.s"
+	@echo "... Thread/test.o"
+	@echo "... Thread/test.i"
+	@echo "... Thread/test.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

@@ -40,3 +40,17 @@ Time1 Time1::operator+(const Time1 &t) const {
 void Time1::Show() const {
     std::cout << hours << " hours, " << minutes << " minutes";
 }
+
+Time1 Time1::operator*(double n) const {
+    Time1 result;
+    long totalminutes = hours * n * 60 + minutes * n;
+    result.hours = totalminutes / 60;
+    result.minutes = totalminutes % 60;
+    return result;
+}
+
+std::ostream &operator<<(std::ostream &os, const Time1 &t) {
+    os << t.hours << "hours, " << t.minutes << " minutes";
+    return os;
+}
+

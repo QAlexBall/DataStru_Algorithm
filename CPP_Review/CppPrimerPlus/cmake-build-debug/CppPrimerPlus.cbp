@@ -108,6 +108,9 @@
 		<Unit filename="/home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimerPlus/OOP/stock00.h">
 			<Option target="CppPrimerPlus"/>
 		</Unit>
+		<Unit filename="/home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimerPlus/Thread/test.cpp">
+			<Option target="CppPrimerPlus"/>
+		</Unit>
 		<Unit filename="/home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimerPlus/main.cpp">
 			<Option target="CppPrimerPlus"/>
 		</Unit>

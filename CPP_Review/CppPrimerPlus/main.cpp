@@ -4,6 +4,7 @@
 #include "OOP/stack.h"
 #include "OOP/mytime0.h"
 #include "OOP/mytime1.h"
+#include <ostream>
 
 void UseStock() {
     Stock fluffy_the_cat("NanoSmart", 20, 12.5);
@@ -179,16 +180,33 @@ void UseTime1() {
     cout << "morefixing.operator+(total) = ";
     total.Show();
     cout << endl;
-
 }
+
+void UseTime3() {
+    using std::cout;
+    using std::endl;
+    Time1 aida(3, 35);
+    Time1 tosca(2, 48);
+    Time1 temp;
+
+    cout << "Aida and Tosca:\n";
+    cout << aida << "; " << tosca << endl;
+    temp = aida + tosca;    // operator+()
+    cout << "Aida + Tosca: " << temp << endl;
+    temp = aida * 1.17;     // member operator*()
+    cout << "Aida * 1.17: " << temp << endl;
+    cout << "10.0 * Tosca: " << 10.0 * tosca << endl;
+}
+
 int main() {
 //    UseStock2();
 //    UseStock();
 //    UseListForClass();
 //    UseStock2WithArrayClass();
 //    UseStack();
-    UseTime0();
-    std::cout << std::endl;
-    UseTime1();
+//    UseTime0();
+//    std::cout << std::endl;
+//    UseTime1();
+    UseTime3();
     return 0;
 }
