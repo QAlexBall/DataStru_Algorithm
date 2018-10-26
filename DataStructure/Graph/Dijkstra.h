@@ -1,8 +1,11 @@
 # pragma once
+#ifndef DIJKSTRA_H_
+#define DIJKSTRA_H_
+
 #include <iostream>
 #include <string>
 using namespace std;
-#define INT_MAX 99999
+#define INT_MAX 999999999
 #define false 0
 #define true 1
 struct Dis {
@@ -33,4 +36,5 @@ public:
 	void print_path(int);
 };
 
+#endif // DIJKSTRA_H_
 

@@ -6,31 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimerPlus/OOP/mytime0.h
-
 /home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimerPlus/OOP/mytime1.h
 iostream
 -
 
-/home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimerPlus/OOP/stack.h
-
-/home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimerPlus/OOP/stock00.h
-string
--
-
-/home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimerPlus/main.cpp
+/home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimerPlus/main1.cpp
 iostream
 -
-OOP/stock00.h
-/home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimerPlus/OOP/stock00.h
-cctype
--
-OOP/stack.h
-/home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimerPlus/OOP/stack.h
-OOP/mytime0.h
-/home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimerPlus/OOP/mytime0.h
 OOP/mytime1.h
 /home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimerPlus/OOP/mytime1.h
-ostream
--
 

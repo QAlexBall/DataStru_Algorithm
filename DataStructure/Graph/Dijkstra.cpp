@@ -9,7 +9,7 @@ Graph_DG::Graph_DG(int vexnum, int edge) {
 	dis = new Dis[this->vexnum];
 	for(int i = 0; i < this->vexnum; i++) {
 		arc[i] = new int[this->vexnum];
-		for(int k = 0; k > vexnum; k++) {
+		for(int k = 0; k < this->vexnum; k++) {
 			arc[i][k] = INT_MAX;
 		}
 	}
@@ -39,15 +39,17 @@ void Graph_DG::createGraph() {
 	int weight;
 	int count = 0;
 	while(count != this->edge) {
-		scanf("%d, %d, %d", &start, &end, &weight);
+		cin >> start >> end >> weight;
+		// scanf("%d, %d, %d", &start, &eend, &weight);
 		// 首先判断变得信息是否合法
 		while(!this->check_edge_value(start, end, weight)) {
 			printf("the arc not illegal, please enter again!");
-   			scanf("%d, %d, %d", &start, &end, &weight);
+   			cin >> start >> end >> weight;
+			// scanf("%d, %d, %d", &start, &end, &weight);
 		}
-	// 对邻接矩阵上的点赋值
-	arc[start - 1][end - 1] = weight;
-	++count;
+		// 对邻接矩阵上的点赋值
+		arc[start - 1][end - 1] = weight;
+		++count;
 	}
 }
 
@@ -59,7 +61,7 @@ void Graph_DG::print() {
 		count_col = 0;
 		while(count_col != this->vexnum) {
 			if(arc[count_row][count_col] == INT_MAX)
-				printf("00 ");
+				cout << "00 ";
 			else
 				printf("%d ", arc[count_row][count_col]);
 			++count_col;
@@ -73,7 +75,7 @@ void Graph_DG::print() {
 void Graph_DG::Dijkstra(int begin) {
 	int i;
 	for(i = 0; i < this->vexnum; i++) {
-		dis[i].path = "v" + to_string(begin) + "-->" + to_string(i + 1);
+		dis[i].path = "v" + to_string(begin) + "-->v" + to_string(i + 1);
 		dis[i].value = arc[begin - 1][i];
 	}
 	dis[begin - 1].value = 0;
@@ -82,7 +84,7 @@ void Graph_DG::Dijkstra(int begin) {
 	int count = 1;
 	while(count != this->vexnum) {
 		int temp = 0;
-		int min = INT_MAX;
+		int min = INT_MAX;	// min记为当前最小值
 		for(i = 0; i < this->vexnum; i++) {
 			if(!dis[i].visit && dis[i].value < min) {
 				min = dis[i].value;
@@ -95,23 +97,46 @@ void Graph_DG::Dijkstra(int begin) {
 			if(!dis[i].visit && arc[temp][i] != INT_MAX 
 				&& (dis[temp].value + arc[temp][i]) < dis[i].value) {
 				dis[i].value = dis[temp].value + arc[temp][i];
-				dis[i].path = dis[temp].path + "--> " + to_string(i + 1);
+				dis[i].path = dis[temp].path + "-->v" + to_string(i + 1);
 			}
 		}
 	}
 }
 
+void Graph_DG::print_path(int begin) {
+	string str;
+	str = "v" + to_string(begin);
+	cout << "with " << str << "the path is: " << endl;
+	for (int i = 0; i != this->vexnum; i++) {
+		if (dis[i].value != INT_MAX) {
+			cout << dis[i].path << "=" << dis[i].value << endl;
+		} else {
+			cout << dis[i].path << "the path is not exist." << endl;
+		}
+	}
+}
+
+bool check(int vexnum, int edge) {
+	if (vexnum <= 0 || edge <= 0 
+	|| ((vexnum * (vexnum - 1)) / 2 < edge)) {
+		return false;	
+	} 
+	return true;
+}
 
 int main() {
 	int vexnum;
 	int edge;
 
 	printf("please enter vexnum and edgnum:");
-	scanf("%d, %d", &vexnum, &edge);
+	cin >> vexnum >> edge;
 
 	Graph_DG graph(vexnum, edge);
+	graph.print();
 	graph.createGraph();
 	graph.print();
+	graph.Dijkstra(1);
+	graph.print_path(1);
 	return 0;
 }
 

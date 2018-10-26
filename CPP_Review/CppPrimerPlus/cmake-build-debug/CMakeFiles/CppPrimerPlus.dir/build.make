@@ -34,10 +34,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/alex/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.4505.18/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /home/alex/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.4892.24/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /home/alex/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.4505.18/bin/cmake/linux/bin/cmake -E remove -f
+RM = /home/alex/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.4892.24/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -122,18 +122,18 @@ CMakeFiles/CppPrimerPlus.dir/OOP/mytime1.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CppPrimerPlus.dir/OOP/mytime1.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimerPlus/OOP/mytime1.cpp -o CMakeFiles/CppPrimerPlus.dir/OOP/mytime1.cpp.s
 
-CMakeFiles/CppPrimerPlus.dir/Thread/test.cpp.o: CMakeFiles/CppPrimerPlus.dir/flags.make
-CMakeFiles/CppPrimerPlus.dir/Thread/test.cpp.o: ../Thread/test.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimerPlus/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/CppPrimerPlus.dir/Thread/test.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CppPrimerPlus.dir/Thread/test.cpp.o -c /home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimerPlus/Thread/test.cpp
+CMakeFiles/CppPrimerPlus.dir/main1.cpp.o: CMakeFiles/CppPrimerPlus.dir/flags.make
+CMakeFiles/CppPrimerPlus.dir/main1.cpp.o: ../main1.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimerPlus/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/CppPrimerPlus.dir/main1.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CppPrimerPlus.dir/main1.cpp.o -c /home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimerPlus/main1.cpp
 
-CMakeFiles/CppPrimerPlus.dir/Thread/test.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CppPrimerPlus.dir/Thread/test.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimerPlus/Thread/test.cpp > CMakeFiles/CppPrimerPlus.dir/Thread/test.cpp.i
+CMakeFiles/CppPrimerPlus.dir/main1.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CppPrimerPlus.dir/main1.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimerPlus/main1.cpp > CMakeFiles/CppPrimerPlus.dir/main1.cpp.i
 
-CMakeFiles/CppPrimerPlus.dir/Thread/test.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CppPrimerPlus.dir/Thread/test.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimerPlus/Thread/test.cpp -o CMakeFiles/CppPrimerPlus.dir/Thread/test.cpp.s
+CMakeFiles/CppPrimerPlus.dir/main1.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CppPrimerPlus.dir/main1.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimerPlus/main1.cpp -o CMakeFiles/CppPrimerPlus.dir/main1.cpp.s
 
 # Object files for target CppPrimerPlus
 CppPrimerPlus_OBJECTS = \
@@ -142,7 +142,7 @@ CppPrimerPlus_OBJECTS = \
 "CMakeFiles/CppPrimerPlus.dir/OOP/stack.cpp.o" \
 "CMakeFiles/CppPrimerPlus.dir/OOP/mytime0.cpp.o" \
 "CMakeFiles/CppPrimerPlus.dir/OOP/mytime1.cpp.o" \
-"CMakeFiles/CppPrimerPlus.dir/Thread/test.cpp.o"
+"CMakeFiles/CppPrimerPlus.dir/main1.cpp.o"
 
 # External object files for target CppPrimerPlus
 CppPrimerPlus_EXTERNAL_OBJECTS =
@@ -152,7 +152,7 @@ CppPrimerPlus: CMakeFiles/CppPrimerPlus.dir/OOP/stock00.cpp.o
 CppPrimerPlus: CMakeFiles/CppPrimerPlus.dir/OOP/stack.cpp.o
 CppPrimerPlus: CMakeFiles/CppPrimerPlus.dir/OOP/mytime0.cpp.o
 CppPrimerPlus: CMakeFiles/CppPrimerPlus.dir/OOP/mytime1.cpp.o
-CppPrimerPlus: CMakeFiles/CppPrimerPlus.dir/Thread/test.cpp.o
+CppPrimerPlus: CMakeFiles/CppPrimerPlus.dir/main1.cpp.o
 CppPrimerPlus: CMakeFiles/CppPrimerPlus.dir/build.make
 CppPrimerPlus: CMakeFiles/CppPrimerPlus.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimerPlus/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable CppPrimerPlus"

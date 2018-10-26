@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimerPlus/OOP/mytime1.cpp" "/home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimerPlus/cmake-build-debug/CMakeFiles/CppPrimerPlus.dir/OOP/mytime1.cpp.o"
   "/home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimerPlus/OOP/stack.cpp" "/home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimerPlus/cmake-build-debug/CMakeFiles/CppPrimerPlus.dir/OOP/stack.cpp.o"
   "/home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimerPlus/OOP/stock00.cpp" "/home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimerPlus/cmake-build-debug/CMakeFiles/CppPrimerPlus.dir/OOP/stock00.cpp.o"
-  "/home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimerPlus/Thread/test.cpp" "/home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimerPlus/cmake-build-debug/CMakeFiles/CppPrimerPlus.dir/Thread/test.cpp.o"
   "/home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimerPlus/main.cpp" "/home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimerPlus/cmake-build-debug/CMakeFiles/CppPrimerPlus.dir/main.cpp.o"
+  "/home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimerPlus/main1.cpp" "/home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimerPlus/cmake-build-debug/CMakeFiles/CppPrimerPlus.dir/main1.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

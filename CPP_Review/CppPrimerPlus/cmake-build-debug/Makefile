@@ -39,10 +39,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/alex/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.4505.18/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /home/alex/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.4892.24/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /home/alex/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.4505.18/bin/cmake/linux/bin/cmake -E remove -f
+RM = /home/alex/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.4892.24/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimerP
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/alex/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.4505.18/bin/cmake/linux/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/home/alex/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.4892.24/bin/cmake/linux/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/home/alex/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.4505.18/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/home/alex/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.4892.24/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -231,33 +231,6 @@ OOP/stock00.cpp.s:
 	$(MAKE) -f CMakeFiles/CppPrimerPlus.dir/build.make CMakeFiles/CppPrimerPlus.dir/OOP/stock00.cpp.s
 .PHONY : OOP/stock00.cpp.s
 
-Thread/test.o: Thread/test.cpp.o
-
-.PHONY : Thread/test.o
-
-# target to build an object file
-Thread/test.cpp.o:
-	$(MAKE) -f CMakeFiles/CppPrimerPlus.dir/build.make CMakeFiles/CppPrimerPlus.dir/Thread/test.cpp.o
-.PHONY : Thread/test.cpp.o
-
-Thread/test.i: Thread/test.cpp.i
-
-.PHONY : Thread/test.i
-
-# target to preprocess a source file
-Thread/test.cpp.i:
-	$(MAKE) -f CMakeFiles/CppPrimerPlus.dir/build.make CMakeFiles/CppPrimerPlus.dir/Thread/test.cpp.i
-.PHONY : Thread/test.cpp.i
-
-Thread/test.s: Thread/test.cpp.s
-
-.PHONY : Thread/test.s
-
-# target to generate assembly for a file
-Thread/test.cpp.s:
-	$(MAKE) -f CMakeFiles/CppPrimerPlus.dir/build.make CMakeFiles/CppPrimerPlus.dir/Thread/test.cpp.s
-.PHONY : Thread/test.cpp.s
-
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -285,6 +258,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/CppPrimerPlus.dir/build.make CMakeFiles/CppPrimerPlus.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+main1.o: main1.cpp.o
+
+.PHONY : main1.o
+
+# target to build an object file
+main1.cpp.o:
+	$(MAKE) -f CMakeFiles/CppPrimerPlus.dir/build.make CMakeFiles/CppPrimerPlus.dir/main1.cpp.o
+.PHONY : main1.cpp.o
+
+main1.i: main1.cpp.i
+
+.PHONY : main1.i
+
+# target to preprocess a source file
+main1.cpp.i:
+	$(MAKE) -f CMakeFiles/CppPrimerPlus.dir/build.make CMakeFiles/CppPrimerPlus.dir/main1.cpp.i
+.PHONY : main1.cpp.i
+
+main1.s: main1.cpp.s
+
+.PHONY : main1.s
+
+# target to generate assembly for a file
+main1.cpp.s:
+	$(MAKE) -f CMakeFiles/CppPrimerPlus.dir/build.make CMakeFiles/CppPrimerPlus.dir/main1.cpp.s
+.PHONY : main1.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -306,12 +306,12 @@ help:
 	@echo "... OOP/stock00.o"
 	@echo "... OOP/stock00.i"
 	@echo "... OOP/stock00.s"
-	@echo "... Thread/test.o"
-	@echo "... Thread/test.i"
-	@echo "... Thread/test.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... main1.o"
+	@echo "... main1.i"
+	@echo "... main1.s"
 .PHONY : help
 
 

@@ -19,3 +19,6 @@ CMakeFiles/CppPrimerPlus.dir/main.cpp.o: ../OOP/stack.h
 CMakeFiles/CppPrimerPlus.dir/main.cpp.o: ../OOP/stock00.h
 CMakeFiles/CppPrimerPlus.dir/main.cpp.o: ../main.cpp
 
+CMakeFiles/CppPrimerPlus.dir/main1.cpp.o: ../OOP/mytime1.h
+CMakeFiles/CppPrimerPlus.dir/main1.cpp.o: ../main1.cpp
+
