@@ -7,8 +7,7 @@
 typedef enum {DG, DN, UDG, UDN} GraphKind; // {有向图， 有向网， 无向图， 无向网}
 typedef struct ArcCell {
 	VRType adj;			// VRType是顶点
-
-        InfoType * info;
+	InfoType * info;
 }ArcCell, AdjMatrix[MAX_VERTEXT_NUM][MAX_VERTEXT_NUM];
 
 
