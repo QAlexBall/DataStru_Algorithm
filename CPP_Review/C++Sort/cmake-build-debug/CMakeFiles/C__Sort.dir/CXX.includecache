@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/C++Sort/Sort/sort.cpp
+sort.h
+/home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/C++Sort/Sort/sort.h
+
+/home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/C++Sort/Sort/sort.h
+iostream
+-
+
+/home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/C++Sort/main.cpp
+iostream
+-
+Sort/sort.h
+/home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/C++Sort/Sort/sort.h
+Sort/sort.cpp
+/home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/C++Sort/Sort/sort.cpp
+

@@ -9,30 +9,32 @@
 using namespace std;
 
 
-// template <typename InfoType>
-typedef char InfoType;
-typedef struct ArcNode {
+template <typename InfoType>
+struct ArcNode {
 	int adjvex;
-	struct ArcNode *next;
+	ArcNode * next;
 	InfoType * info;
-}ArcNode;
+};
 
-// template <typename VertexType>
-typedef int VertexType;
-typedef struct VNode{
+
+// typedef int VertexType;
+template <class VertexType>
+struct VNode {
 	VertexType data;
-	ArcNode * firstarc;
-}VNode, AdjList[MAX_VERTEX_NUM];
+	ArcNode<int> * firstarc;
+};
+typedef  VNode<int> AdjList[MAX_VERTEX_NUM];
 
 class ALGraph {
 private:
 	AdjList vertices;
 	int vexnum, arcnum;
-	int kind;
+	const int kind;
 
 public:
-	ALGraph(int vexnum, int edge);
+	ALGraph(int vexnum, int arcnum);
 	~ALGraph();
+	void createGraph();
 };
 
 #endif

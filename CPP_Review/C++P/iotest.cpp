@@ -20,7 +20,7 @@ int main() {
 	cin >> data;
 	cin.ignore();
 	outfile << data << endl;
-
+	outfile << "hello" << endl;
 	outfile.close();
 
 	// 以读模式打开文件
