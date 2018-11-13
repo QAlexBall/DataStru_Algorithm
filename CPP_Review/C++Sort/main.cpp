@@ -41,10 +41,11 @@ void select_sort() {
 }
 
 void heap_sort() {
-    int array[] = {28, 5, 3, 6, 4, 0, 1, 2, 89 , 100};
+//    int array[] = {28, 5, 3, 6, 4, 0, 1, 2, 89 , 100};
+    int array[] = {5, 6, 3, 4, 8, 9, 0};
     int n = sizeof(array) / sizeof(int);
     Sort<int> heap_sort(array, n);
-    heap_sort.HeapSort(array, n - 1);
+    heap_sort.HeapSort(array, n);
     heap_sort.output();
 }
 
@@ -64,21 +65,35 @@ void merge_sort() {
     merge_sort.output();
 }
 int main() {
-    cout << "=============insert_sort!==============" << endl;
-    insert_sort();
-    cout << "=============shell_sort!===============" << endl;
-    shell_sort();
-    cout << "=============bubble_sort!==============" << endl;
-    bubble_sort();
-    cout << "=============quick sort!===============" << endl;
-    quick_sort();
-    cout << "=============select sort!==============" << endl;
-    select_sort();
+//    cout << "=============insert_sort!==============" << endl;
+//    insert_sort();
+//    cout << "=============shell_sort!===============" << endl;
+//    shell_sort();
+//    cout << "=============bubble_sort!==============" << endl;
+//    bubble_sort();
+//    cout << "=============quick sort!===============" << endl;
+//    quick_sort();
+//    cout << "=============select sort!==============" << endl;
+//    select_sort();
     cout << "=============heap sort!================" << endl;
     heap_sort();
-    cout << "=============heap sort up!=============" << endl;
-    heap_sort_up();
-    cout << "=============merge sort!===============" << endl;
-    merge_sort();
+//    cout << "=============heap sort up!=============" << endl;
+//    heap_sort_up();
+//    cout << "=============merge sort!===============" << endl;
+//    merge_sort();
+
+//    int array[] = {5, 6, 3, 4, 8, 9};
+//    int n = sizeof(array) / sizeof(int);
+//    Sort<int> sort(array, n);
+//    sort.AdjustDown(array, n/ 2 - 1, n);
+//    sort.AdjustDown(array, n / 2 - 2, n);
+//    sort.AdjustDown(array, n / 2 - 3, n);
+//    sort.output();
+    int array1[] = {3, 4, 5};
+    int n1 = sizeof(array1) / sizeof(int);
+    Sort<int> sort(array1, n1);
+    sort.AdjustDown(array1, 0, n1);
+    sort.output();
+
     return 0;
 }

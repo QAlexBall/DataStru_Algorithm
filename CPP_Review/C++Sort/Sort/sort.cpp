@@ -106,7 +106,7 @@ void Sort<T>::SelectSort() {
 template <class T>
 void Sort<T>::BuildMinHeap(T *array, int len) {
     for (int i = len / 2; i > 0; i--)
-        AdjustUp(array, i, len);
+        AdjustUp(array, i);
 }
 
 template <class T>
@@ -126,27 +126,36 @@ void Sort<T>::HeapSortUp(T *array, int len) {
     BuildMinHeap(array, len);
     for (int i = len; i > 1; i--) {
         swap(array[i], array[1]);
-        AdjustDown(array, 1, i - 1);
+        AdjustUp(array, 1);
     }
 }
 
 template <class T>
 void Sort<T>::BuildMaxHeap(T *array, int len) {
-    for (int i = len / 2; i > 0; i--)
+    for (int i = len / 2; i >= 0; i--) {
         AdjustDown(array, i, len);
+    }
+    output();
 }
 
 template<class T>
 void Sort<T>::AdjustDown(T *array, int k, int len) {
+    cout << k << " " << len << endl;
+    this->array = array;
     // 函数AdjustDown将元素k向下进行调整
     T temp = array[k];
-    for (int i = 2 * k; i <= len; i *= 2) {
-        if (i < len && array[i] < array[i + 1])
+    for (int i = 2 * k + 1; i <= len; i = ((i+1) * 2 - 1)) {     // i下标从1开始
+        if (i < len - 1 && array[i] < array[i + 1]) // 让i等于子节点中较大的元素
             i++;
-        if (temp >= array[i]) break;
-        else {
-            array[k] = array[i];
-            k = i;
+        if (i <= len - 1 && temp >= array[i]) {
+            break;    // 若temp大于子节点最大的元素,break
+        }
+
+        else {      // 否则交换temp与子节点最大元素;
+            if (i <= len - 1) {
+                array[k] = array[i];
+                k = i;
+            }
         }
     }
     array[k] = temp;
@@ -155,17 +164,15 @@ void Sort<T>::AdjustDown(T *array, int k, int len) {
 template<class T>
 void Sort<T>::HeapSort(T *array, int len) {
     BuildMaxHeap(array, len);
-    for (int i = len; i > 1; i--) {
-        swap(array[i], array[1]);
-        AdjustDown(array, 1, i - 1);
-    }
-    int temp = array[0];
-    for (int i = 0; i < len; i++) {
-        if (array[i] > temp) {
-            array[i - 1] = temp;
-            break;
-        }
-        array[i] = array[i + 1];
+    cout << endl;
+    for (int i = len - 1; i > 0; i--) {
+        swap(array[i], array[0]);
+        cout << "swap = ";
+        output();
+        AdjustDown(array, 0, i);
+        cout << "AD = ";
+        output();
+        cout << endl;
     }
 }
 
@@ -199,6 +206,7 @@ void Sort<T>::MergeSort(T *array, int low, int high) {
 
 template <class T>
 void Sort<T>::output() {
+    cout << "result is: ";
     for (int i = 0; i < n; i++) {
         cout << array[i] << " ";
     }
