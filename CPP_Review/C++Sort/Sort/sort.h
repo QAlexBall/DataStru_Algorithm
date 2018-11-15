@@ -6,12 +6,11 @@
 #define C_SORT_SORT_H
 
 #include <iostream>
-using namespace std;
 
 template <class T>
 class Meta {
 public:
-    void swap(T &a, T &b) {
+    virtual void swap(T &a, T &b) {
         T temp = a;
         a = b;
         b = temp;
@@ -28,6 +27,10 @@ public:
     explicit Sort(T *array, int n);
     ~Sort() = default;
 //    void swap(T &a, T &b);  // 交换两个元素
+    void swap(T &a, T &b) {
+        Meta<T>::swap(a, b);
+    }
+
     void InsertSort();
     void InsertSort1(); // 折半插入排序
     void ShellSort();

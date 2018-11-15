@@ -1,6 +1,7 @@
 #include <iostream>
 #include "Sort/sort.h"
 #include "Sort/sort.cpp"
+using namespace std;
 
 void insert_sort() {
     int array[] = {18, 5, 3, 6, 4, 0};

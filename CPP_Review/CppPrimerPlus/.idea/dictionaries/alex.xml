@@ -4,7 +4,9 @@
       <w>isempty</w>
       <w>isfull</w>
       <w>morefixing</w>
+      <w>myhash</w>
       <w>mytime</w>
+      <w>nullkey</w>
       <w>prec</w>
       <w>topval</w>
     </words>

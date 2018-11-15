@@ -3,7 +3,6 @@
 //
 
 #include "sort.h"
-
 template <class T>
 Sort<T>::Sort(T *array, int n) {
     this->array = array;
@@ -45,12 +44,6 @@ void Sort<T>::ShellSort() {
     }
 }
 
-//template <class T>
-//void Sort<T>::swap(T &a, T &b) {
-//    T temp = a;
-//    a = b;
-//    b = temp;
-//}
 
 template <class T>
 void Sort<T>::BubbleSort() {
@@ -140,7 +133,7 @@ void Sort<T>::BuildMaxHeap(T *array, int len) {
 
 template<class T>
 void Sort<T>::AdjustDown(T *array, int k, int len) {
-    cout << k << " " << len << endl;
+    std::cout << k << " " << len << std::endl;
     this->array = array;
     // 函数AdjustDown将元素k向下进行调整
     T temp = array[k];
@@ -164,15 +157,15 @@ void Sort<T>::AdjustDown(T *array, int k, int len) {
 template<class T>
 void Sort<T>::HeapSort(T *array, int len) {
     BuildMaxHeap(array, len);
-    cout << endl;
+    std::cout << std::endl;
     for (int i = len - 1; i > 0; i--) {
         swap(array[i], array[0]);
-        cout << "swap = ";
+        std::cout << "swap = ";
         output();
         AdjustDown(array, 0, i);
-        cout << "AD = ";
+        std::cout << "AD = ";
         output();
-        cout << endl;
+        std::cout << std::endl;
     }
 }
 
@@ -206,10 +199,10 @@ void Sort<T>::MergeSort(T *array, int low, int high) {
 
 template <class T>
 void Sort<T>::output() {
-    cout << "result is: ";
+    std::cout << "result is: ";
     for (int i = 0; i < n; i++) {
-        cout << array[i] << " ";
+        std::cout << array[i] << " ";
     }
-    cout << endl;
+    std::cout << std::endl;
 }
 

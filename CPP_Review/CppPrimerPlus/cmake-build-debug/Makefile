@@ -123,6 +123,33 @@ CppPrimerPlus/fast:
 	$(MAKE) -f CMakeFiles/CppPrimerPlus.dir/build.make CMakeFiles/CppPrimerPlus.dir/build
 .PHONY : CppPrimerPlus/fast
 
+MyHash/myhash.o: MyHash/myhash.cpp.o
+
+.PHONY : MyHash/myhash.o
+
+# target to build an object file
+MyHash/myhash.cpp.o:
+	$(MAKE) -f CMakeFiles/CppPrimerPlus.dir/build.make CMakeFiles/CppPrimerPlus.dir/MyHash/myhash.cpp.o
+.PHONY : MyHash/myhash.cpp.o
+
+MyHash/myhash.i: MyHash/myhash.cpp.i
+
+.PHONY : MyHash/myhash.i
+
+# target to preprocess a source file
+MyHash/myhash.cpp.i:
+	$(MAKE) -f CMakeFiles/CppPrimerPlus.dir/build.make CMakeFiles/CppPrimerPlus.dir/MyHash/myhash.cpp.i
+.PHONY : MyHash/myhash.cpp.i
+
+MyHash/myhash.s: MyHash/myhash.cpp.s
+
+.PHONY : MyHash/myhash.s
+
+# target to generate assembly for a file
+MyHash/myhash.cpp.s:
+	$(MAKE) -f CMakeFiles/CppPrimerPlus.dir/build.make CMakeFiles/CppPrimerPlus.dir/MyHash/myhash.cpp.s
+.PHONY : MyHash/myhash.cpp.s
+
 OOP/mytime0.o: OOP/mytime0.cpp.o
 
 .PHONY : OOP/mytime0.o
@@ -294,6 +321,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... CppPrimerPlus"
+	@echo "... MyHash/myhash.o"
+	@echo "... MyHash/myhash.i"
+	@echo "... MyHash/myhash.s"
 	@echo "... OOP/mytime0.o"
 	@echo "... OOP/mytime0.i"
 	@echo "... OOP/mytime0.s"
