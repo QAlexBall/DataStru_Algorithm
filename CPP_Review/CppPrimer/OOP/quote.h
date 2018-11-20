@@ -9,8 +9,7 @@ using namespace std;
 class Quote {
 public:
 	Quote() = default;
-	Quote(std::string book, double sales_price):
-		bookNo(std::move(book)), price(sales_price) { }
+	Quote(std::string book, double sales_price) : bookNo(std::move(book)), price(sales_price) { }
 	std::string isbn() const { return bookNo; }
 	virtual double net_price(std::size_t n) const { return n * price; }  // 返回给定数量的书籍的销售总额
 																		 // 派生类负责修改并使用不同的折扣计算算法

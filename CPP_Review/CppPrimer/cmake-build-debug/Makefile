@@ -123,6 +123,33 @@ CppPrimer/fast:
 	$(MAKE) -f CMakeFiles/CppPrimer.dir/build.make CMakeFiles/CppPrimer.dir/build
 .PHONY : CppPrimer/fast
 
+C++11/cpp11.o: C++11/cpp11.cpp.o
+
+.PHONY : C++11/cpp11.o
+
+# target to build an object file
+C++11/cpp11.cpp.o:
+	$(MAKE) -f CMakeFiles/CppPrimer.dir/build.make CMakeFiles/CppPrimer.dir/C++11/cpp11.cpp.o
+.PHONY : C++11/cpp11.cpp.o
+
+C++11/cpp11.i: C++11/cpp11.cpp.i
+
+.PHONY : C++11/cpp11.i
+
+# target to preprocess a source file
+C++11/cpp11.cpp.i:
+	$(MAKE) -f CMakeFiles/CppPrimer.dir/build.make CMakeFiles/CppPrimer.dir/C++11/cpp11.cpp.i
+.PHONY : C++11/cpp11.cpp.i
+
+C++11/cpp11.s: C++11/cpp11.cpp.s
+
+.PHONY : C++11/cpp11.s
+
+# target to generate assembly for a file
+C++11/cpp11.cpp.s:
+	$(MAKE) -f CMakeFiles/CppPrimer.dir/build.make CMakeFiles/CppPrimer.dir/C++11/cpp11.cpp.s
+.PHONY : C++11/cpp11.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -159,6 +186,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... CppPrimer"
+	@echo "... C++11/cpp11.o"
+	@echo "... C++11/cpp11.i"
+	@echo "... C++11/cpp11.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

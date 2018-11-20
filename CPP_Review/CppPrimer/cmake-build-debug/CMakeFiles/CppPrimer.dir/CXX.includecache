@@ -6,17 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimer/OOP/quote.h
-utility
--
+/home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimer/C++11/cpp11.cpp
 iostream
+-
+vector
 -
 fstream
 -
-
-/home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimer/main.cpp
-iostream
--
-OOP/quote.h
-/home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimer/OOP/quote.h
 

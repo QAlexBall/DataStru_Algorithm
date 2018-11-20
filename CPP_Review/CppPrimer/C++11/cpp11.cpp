@@ -3,8 +3,8 @@
 //
 #include <iostream>
 #include <vector>
-#include "OOP/quote.h"
-//using namespace std;
+#include <fstream>
+using namespace std;
 
 void inOut() {
     std::filebuf fb;
@@ -44,6 +44,11 @@ void useVector() {
         cout << i << endl;
     }
 
+    for (auto &j : vec)
+        j *= j;
+    for (auto k : vec) {
+        cout << k << endl;
+    }
 }
 
 void useDecltype() {
@@ -87,8 +92,39 @@ void constUpDown() {
      */
 }
 
+void UseIterator() {
+    string s("some string");
+    if (s.begin() != s.end()) {
+        auto it = s.begin();
+        *it = static_cast<char>(toupper(*it));
+    }
+    cout << s << endl;
+
+    for (auto it = s.begin(); it != s.end() && !isspace(*it); ++it) {
+        *it = static_cast<char>(toupper(*it));
+    }
+    cout << s << endl;
+
+    string::iterator it;
+    string::const_iterator const_it;
+    it = s.begin();
+    it.base();
+    cout << "it.base : " << it.base() << endl;
+    it++;
+    for (it = s.begin(); it != s.end(); ++it) {
+        cout << "it.base: " << *it.base() << " " << endl;
+    }
+    cout << "it - 3 :" << *(it - 3) << endl;
+
+    vector<int> vec = {1, 2, 3};
+    auto vec_iter = vec.begin();
+    cout << *vec_iter << endl;
+
+}
+
 int main () {
 //    useDecltype();
-    useVector();
+//    useVector();
+    UseIterator();
     return 0;
 }
