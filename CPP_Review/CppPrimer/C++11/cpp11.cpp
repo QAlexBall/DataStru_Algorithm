@@ -8,7 +8,7 @@ using namespace std;
 
 void inOut() {
     std::filebuf fb;
-    fb.open("test.txt",std::ios::out);
+    fb.open("test.txt", std::ios::out);
     std::ostream os(&fb);
     os << "Test sentence\n";
     fb.close();

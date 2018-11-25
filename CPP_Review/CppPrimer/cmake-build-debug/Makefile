@@ -123,59 +123,32 @@ CppPrimer/fast:
 	$(MAKE) -f CMakeFiles/CppPrimer.dir/build.make CMakeFiles/CppPrimer.dir/build
 .PHONY : CppPrimer/fast
 
-C++11/cpp11.o: C++11/cpp11.cpp.o
+IO/iotest.o: IO/iotest.cpp.o
 
-.PHONY : C++11/cpp11.o
-
-# target to build an object file
-C++11/cpp11.cpp.o:
-	$(MAKE) -f CMakeFiles/CppPrimer.dir/build.make CMakeFiles/CppPrimer.dir/C++11/cpp11.cpp.o
-.PHONY : C++11/cpp11.cpp.o
-
-C++11/cpp11.i: C++11/cpp11.cpp.i
-
-.PHONY : C++11/cpp11.i
-
-# target to preprocess a source file
-C++11/cpp11.cpp.i:
-	$(MAKE) -f CMakeFiles/CppPrimer.dir/build.make CMakeFiles/CppPrimer.dir/C++11/cpp11.cpp.i
-.PHONY : C++11/cpp11.cpp.i
-
-C++11/cpp11.s: C++11/cpp11.cpp.s
-
-.PHONY : C++11/cpp11.s
-
-# target to generate assembly for a file
-C++11/cpp11.cpp.s:
-	$(MAKE) -f CMakeFiles/CppPrimer.dir/build.make CMakeFiles/CppPrimer.dir/C++11/cpp11.cpp.s
-.PHONY : C++11/cpp11.cpp.s
-
-main.o: main.cpp.o
-
-.PHONY : main.o
+.PHONY : IO/iotest.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/CppPrimer.dir/build.make CMakeFiles/CppPrimer.dir/main.cpp.o
-.PHONY : main.cpp.o
+IO/iotest.cpp.o:
+	$(MAKE) -f CMakeFiles/CppPrimer.dir/build.make CMakeFiles/CppPrimer.dir/IO/iotest.cpp.o
+.PHONY : IO/iotest.cpp.o
 
-main.i: main.cpp.i
+IO/iotest.i: IO/iotest.cpp.i
 
-.PHONY : main.i
+.PHONY : IO/iotest.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/CppPrimer.dir/build.make CMakeFiles/CppPrimer.dir/main.cpp.i
-.PHONY : main.cpp.i
+IO/iotest.cpp.i:
+	$(MAKE) -f CMakeFiles/CppPrimer.dir/build.make CMakeFiles/CppPrimer.dir/IO/iotest.cpp.i
+.PHONY : IO/iotest.cpp.i
 
-main.s: main.cpp.s
+IO/iotest.s: IO/iotest.cpp.s
 
-.PHONY : main.s
+.PHONY : IO/iotest.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/CppPrimer.dir/build.make CMakeFiles/CppPrimer.dir/main.cpp.s
-.PHONY : main.cpp.s
+IO/iotest.cpp.s:
+	$(MAKE) -f CMakeFiles/CppPrimer.dir/build.make CMakeFiles/CppPrimer.dir/IO/iotest.cpp.s
+.PHONY : IO/iotest.cpp.s
 
 # Help Target
 help:
@@ -186,12 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... CppPrimer"
-	@echo "... C++11/cpp11.o"
-	@echo "... C++11/cpp11.i"
-	@echo "... C++11/cpp11.s"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... IO/iotest.o"
+	@echo "... IO/iotest.i"
+	@echo "... IO/iotest.s"
 .PHONY : help
 
 

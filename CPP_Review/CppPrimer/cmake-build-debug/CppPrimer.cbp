@@ -84,16 +84,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimer/C++11/cpp11.cpp">
-			<Option target="CppPrimer"/>
-		</Unit>
-		<Unit filename="/home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimer/C++11/use_vector.h">
-			<Option target="CppPrimer"/>
-		</Unit>
-		<Unit filename="/home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimer/OOP/quote.h">
-			<Option target="CppPrimer"/>
-		</Unit>
-		<Unit filename="/home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimer/main.cpp">
+		<Unit filename="/home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimer/IO/iotest.cpp">
 			<Option target="CppPrimer"/>
 		</Unit>
 		<Unit filename="/home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimer/CMakeLists.txt">
