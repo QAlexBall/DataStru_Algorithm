@@ -6,13 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimer/IO/iotest.cpp
+/home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimer/solution.cpp
 iostream
 -
-fstream
--
 vector
--
-sstream
 -
 

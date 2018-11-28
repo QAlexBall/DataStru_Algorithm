@@ -123,32 +123,32 @@ CppPrimer/fast:
 	$(MAKE) -f CMakeFiles/CppPrimer.dir/build.make CMakeFiles/CppPrimer.dir/build
 .PHONY : CppPrimer/fast
 
-IO/iotest.o: IO/iotest.cpp.o
+solution.o: solution.cpp.o
 
-.PHONY : IO/iotest.o
+.PHONY : solution.o
 
 # target to build an object file
-IO/iotest.cpp.o:
-	$(MAKE) -f CMakeFiles/CppPrimer.dir/build.make CMakeFiles/CppPrimer.dir/IO/iotest.cpp.o
-.PHONY : IO/iotest.cpp.o
+solution.cpp.o:
+	$(MAKE) -f CMakeFiles/CppPrimer.dir/build.make CMakeFiles/CppPrimer.dir/solution.cpp.o
+.PHONY : solution.cpp.o
 
-IO/iotest.i: IO/iotest.cpp.i
+solution.i: solution.cpp.i
 
-.PHONY : IO/iotest.i
+.PHONY : solution.i
 
 # target to preprocess a source file
-IO/iotest.cpp.i:
-	$(MAKE) -f CMakeFiles/CppPrimer.dir/build.make CMakeFiles/CppPrimer.dir/IO/iotest.cpp.i
-.PHONY : IO/iotest.cpp.i
+solution.cpp.i:
+	$(MAKE) -f CMakeFiles/CppPrimer.dir/build.make CMakeFiles/CppPrimer.dir/solution.cpp.i
+.PHONY : solution.cpp.i
 
-IO/iotest.s: IO/iotest.cpp.s
+solution.s: solution.cpp.s
 
-.PHONY : IO/iotest.s
+.PHONY : solution.s
 
 # target to generate assembly for a file
-IO/iotest.cpp.s:
-	$(MAKE) -f CMakeFiles/CppPrimer.dir/build.make CMakeFiles/CppPrimer.dir/IO/iotest.cpp.s
-.PHONY : IO/iotest.cpp.s
+solution.cpp.s:
+	$(MAKE) -f CMakeFiles/CppPrimer.dir/build.make CMakeFiles/CppPrimer.dir/solution.cpp.s
+.PHONY : solution.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... CppPrimer"
-	@echo "... IO/iotest.o"
-	@echo "... IO/iotest.i"
-	@echo "... IO/iotest.s"
+	@echo "... solution.o"
+	@echo "... solution.i"
+	@echo "... solution.s"
 .PHONY : help
 
 
