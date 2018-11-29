@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimer/solution.cpp
+/home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimer/Template/template.cpp
 iostream
 -
-vector
+cstring
 -
 

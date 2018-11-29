@@ -57,27 +57,27 @@ include CMakeFiles/CppPrimer.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/CppPrimer.dir/flags.make
 
-CMakeFiles/CppPrimer.dir/solution.cpp.o: CMakeFiles/CppPrimer.dir/flags.make
-CMakeFiles/CppPrimer.dir/solution.cpp.o: ../solution.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CppPrimer.dir/solution.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CppPrimer.dir/solution.cpp.o -c /home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimer/solution.cpp
+CMakeFiles/CppPrimer.dir/Template/template.cpp.o: CMakeFiles/CppPrimer.dir/flags.make
+CMakeFiles/CppPrimer.dir/Template/template.cpp.o: ../Template/template.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CppPrimer.dir/Template/template.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CppPrimer.dir/Template/template.cpp.o -c /home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimer/Template/template.cpp
 
-CMakeFiles/CppPrimer.dir/solution.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CppPrimer.dir/solution.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimer/solution.cpp > CMakeFiles/CppPrimer.dir/solution.cpp.i
+CMakeFiles/CppPrimer.dir/Template/template.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CppPrimer.dir/Template/template.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimer/Template/template.cpp > CMakeFiles/CppPrimer.dir/Template/template.cpp.i
 
-CMakeFiles/CppPrimer.dir/solution.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CppPrimer.dir/solution.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimer/solution.cpp -o CMakeFiles/CppPrimer.dir/solution.cpp.s
+CMakeFiles/CppPrimer.dir/Template/template.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CppPrimer.dir/Template/template.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimer/Template/template.cpp -o CMakeFiles/CppPrimer.dir/Template/template.cpp.s
 
 # Object files for target CppPrimer
 CppPrimer_OBJECTS = \
-"CMakeFiles/CppPrimer.dir/solution.cpp.o"
+"CMakeFiles/CppPrimer.dir/Template/template.cpp.o"
 
 # External object files for target CppPrimer
 CppPrimer_EXTERNAL_OBJECTS =
 
-CppPrimer: CMakeFiles/CppPrimer.dir/solution.cpp.o
+CppPrimer: CMakeFiles/CppPrimer.dir/Template/template.cpp.o
 CppPrimer: CMakeFiles/CppPrimer.dir/build.make
 CppPrimer: CMakeFiles/CppPrimer.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable CppPrimer"

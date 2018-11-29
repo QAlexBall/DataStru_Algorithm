@@ -123,32 +123,32 @@ CppPrimer/fast:
 	$(MAKE) -f CMakeFiles/CppPrimer.dir/build.make CMakeFiles/CppPrimer.dir/build
 .PHONY : CppPrimer/fast
 
-solution.o: solution.cpp.o
+Template/template.o: Template/template.cpp.o
 
-.PHONY : solution.o
+.PHONY : Template/template.o
 
 # target to build an object file
-solution.cpp.o:
-	$(MAKE) -f CMakeFiles/CppPrimer.dir/build.make CMakeFiles/CppPrimer.dir/solution.cpp.o
-.PHONY : solution.cpp.o
+Template/template.cpp.o:
+	$(MAKE) -f CMakeFiles/CppPrimer.dir/build.make CMakeFiles/CppPrimer.dir/Template/template.cpp.o
+.PHONY : Template/template.cpp.o
 
-solution.i: solution.cpp.i
+Template/template.i: Template/template.cpp.i
 
-.PHONY : solution.i
+.PHONY : Template/template.i
 
 # target to preprocess a source file
-solution.cpp.i:
-	$(MAKE) -f CMakeFiles/CppPrimer.dir/build.make CMakeFiles/CppPrimer.dir/solution.cpp.i
-.PHONY : solution.cpp.i
+Template/template.cpp.i:
+	$(MAKE) -f CMakeFiles/CppPrimer.dir/build.make CMakeFiles/CppPrimer.dir/Template/template.cpp.i
+.PHONY : Template/template.cpp.i
 
-solution.s: solution.cpp.s
+Template/template.s: Template/template.cpp.s
 
-.PHONY : solution.s
+.PHONY : Template/template.s
 
 # target to generate assembly for a file
-solution.cpp.s:
-	$(MAKE) -f CMakeFiles/CppPrimer.dir/build.make CMakeFiles/CppPrimer.dir/solution.cpp.s
-.PHONY : solution.cpp.s
+Template/template.cpp.s:
+	$(MAKE) -f CMakeFiles/CppPrimer.dir/build.make CMakeFiles/CppPrimer.dir/Template/template.cpp.s
+.PHONY : Template/template.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... CppPrimer"
-	@echo "... solution.o"
-	@echo "... solution.i"
-	@echo "... solution.s"
+	@echo "... Template/template.o"
+	@echo "... Template/template.i"
+	@echo "... Template/template.s"
 .PHONY : help
 
 
