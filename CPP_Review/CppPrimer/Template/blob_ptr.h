@@ -9,7 +9,6 @@
 #include <vector>
 #include "blob.h"
 template <typename T> class BlobPtr {
-    friend class Blob<T>;
 public:
     BlobPtr() : curr(0) { };
     explicit BlobPtr(Blob<T> &a, size_t sz = 0) : wptr(a.data), curr(sz) {
@@ -19,6 +18,8 @@ public:
         auto p = check(curr, "dereference past end");
         return (*p)[curr];
     }
+    T& deref() const;
+    BlobPtr& increment();
     BlobPtr& operator++();
     BlobPtr& operator--();
 private:

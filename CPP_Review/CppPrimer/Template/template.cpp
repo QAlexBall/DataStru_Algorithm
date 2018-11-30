@@ -75,7 +75,7 @@ void test() {
     Blob<int> s1 = {1, 9, 5, 8};
     Blob<int> s2 = s1;
     BlobPtr<int> blob_ptr(s1, 1);
-    cout << "*blob ptr:" << *blob_ptr << endl;
+    cout << "*blob_ptr.increment:" << *blob_ptr.increment() << endl;
 }
 
 int main() {
