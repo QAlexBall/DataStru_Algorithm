@@ -6,4 +6,4 @@ set(CMAKE_CXX_STANDARD 11)
 
 #add_executable(CppPrimer main.cpp OOP/quote.h main.cpp C++11/cpp11.cpp C++11/use_vector.h BTree.cpp IO/iotest.cpp)
 #add_executable(CppPrimer C++11/cpp11.cpp)
-add_executable(CppPrimer Template/template.cpp C++11/StarBlob.h C++11/StarBlob.cpp)
+add_executable(CppPrimer Template/template.cpp C++11/StarBlob.h C++11/StarBlob.cpp Template/blob_ptr.h Template/blob.h Template/blob_use.h Template/blob_ptr_use.h)

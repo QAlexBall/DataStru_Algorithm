@@ -4,6 +4,9 @@
 CMakeFiles/CppPrimer.dir/C++11/StarBlob.cpp.o: ../C++11/StarBlob.cpp
 CMakeFiles/CppPrimer.dir/C++11/StarBlob.cpp.o: ../C++11/StarBlob.h
 
-CMakeFiles/CppPrimer.dir/C++11/sharedptr.cpp.o: ../C++11/StarBlob.h
-CMakeFiles/CppPrimer.dir/C++11/sharedptr.cpp.o: ../C++11/sharedptr.cpp
+CMakeFiles/CppPrimer.dir/Template/template.cpp.o: ../Template/blob.h
+CMakeFiles/CppPrimer.dir/Template/template.cpp.o: ../Template/blob_ptr.h
+CMakeFiles/CppPrimer.dir/Template/template.cpp.o: ../Template/blob_ptr_use.h
+CMakeFiles/CppPrimer.dir/Template/template.cpp.o: ../Template/blob_use.h
+CMakeFiles/CppPrimer.dir/Template/template.cpp.o: ../Template/template.cpp
 

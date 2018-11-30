@@ -2,7 +2,7 @@
 // Created by alex on 11/30/18.
 //
 
-#include "blob_class.h"
+#include "blob.h"
 template<typename T>
 Blob<T>::Blob() : data(std::make_shared<std::vector<T>>()) {}
 

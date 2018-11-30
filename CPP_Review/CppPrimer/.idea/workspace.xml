@@ -12,29 +12,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ca949806-64bf-4673-a03c-569d37006c25" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/C++11/StarBlob.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/C++11/StarBlob.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/C++11/sharedptr.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dictionaries/alex.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/alex.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/blob_ptr.h" beforeDir="false" afterPath="$PROJECT_DIR$/Template/blob_ptr.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/blob_ptr_use.h" beforeDir="false" afterPath="$PROJECT_DIR$/Template/blob_ptr_use.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/blob_use.h" beforeDir="false" afterPath="$PROJECT_DIR$/Template/blob_use.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Template/template.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Template/template.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CppPrimer.dir/C++11/sharedptr.cpp.o" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CppPrimer.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CppPrimer.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CppPrimer.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CppPrimer.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CppPrimer.dir/Template/template.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CppPrimer.dir/Template/template.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CppPrimer.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CppPrimer.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CppPrimer.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CppPrimer.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CppPrimer.dir/Template/template.cpp.o" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CppPrimer.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CppPrimer.dir/depend.internal" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CppPrimer.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CppPrimer.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CppPrimer.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CppPrimer.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CppPrimer.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CppPrimer.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CppPrimer" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CppPrimer" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CppPrimer.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CppPrimer.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CppPrimerPlus/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CppPrimerPlus/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,7 +39,7 @@
     <session id="-685920699">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="20" />
+          <entry key="project.closed" value="21" />
           <entry key="project.open.time.0" value="3" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="4" />
@@ -64,8 +55,8 @@
           <entry key="Makefile" value="1" />
           <entry key="cbp" value="1" />
           <entry key="cmake" value="1" />
-          <entry key="cpp" value="33" />
-          <entry key="h" value="17" />
+          <entry key="cpp" value="42" />
+          <entry key="h" value="25" />
           <entry key="initializer_list" value="1" />
           <entry key="iosfwd" value="2" />
           <entry key="istream" value="1" />
@@ -77,15 +68,15 @@
         <counts>
           <entry key="CMakeCache.txt" value="1" />
           <entry key="CMakeLists.txt" value="12" />
-          <entry key="ObjectiveC" value="51" />
+          <entry key="ObjectiveC" value="68" />
           <entry key="PLAIN_TEXT" value="27" />
           <entry key="Scratch" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cpp" value="10665" />
-          <entry key="h" value="826" />
+          <entry key="cpp" value="11450" />
+          <entry key="h" value="2102" />
           <entry key="mm" value="6" />
           <entry key="txt" value="190" />
         </counts>
@@ -94,7 +85,7 @@
         <counts>
           <entry key="CMakeLists.txt" value="101" />
           <entry key="Doxygen file" value="3" />
-          <entry key="ObjectiveC" value="11494" />
+          <entry key="ObjectiveC" value="13555" />
           <entry key="PLAIN_TEXT" value="73" />
           <entry key="Scratch" value="16" />
         </counts>
@@ -102,30 +93,79 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Template/template.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="55" column="58" selection-start-line="55" selection-start-column="58" selection-end-line="55" selection-end-column="58" />
-              <folding>
-                <element signature="e#39#58#0" expanded="true" />
-                <element signature="e#692#704#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="46" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5030211">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Template/template.cpp">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="184">
+                  <caret line="55" column="50" selection-start-line="55" selection-start-column="50" selection-end-line="55" selection-end-column="50" />
+                  <folding>
+                    <element signature="e#39#58#0" expanded="true" />
+                    <element signature="e#393#417#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Template/blob.h">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="202">
+                  <caret line="33" column="57" selection-start-line="33" selection-start-column="57" selection-end-line="33" selection-end-column="57" />
+                  <folding>
+                    <element signature="e#89#106#0" expanded="true" />
+                    <element signature="e#135#145#0" expanded="true" />
+                    <element signature="e#170#180#0" expanded="true" />
+                    <element signature="e#202#214#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/Template/blob_ptr_use.h">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="153">
+                  <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+                  <folding>
+                    <element signature="e#71#83#0" expanded="true" />
+                    <element signature="e#233#245#0" expanded="true" />
+                    <element signature="e#349#361#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Template/blob_use.h">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="61">
+                  <caret line="9" column="18" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/Template/blob_ptr.h">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="333">
+                  <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
+                  <folding>
+                    <element signature="e#97#116#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -133,6 +173,11 @@
         <option value="CMakeLists.txt" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>3</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
@@ -159,7 +204,14 @@
         <option value="$PROJECT_DIR$/C++11/StarBlob.cpp" />
         <option value="$PROJECT_DIR$/C++11/sharedptr.cpp" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/Template/blob_ptr.cpp" />
+        <option value="$PROJECT_DIR$/Template/blob.h" />
+        <option value="$PROJECT_DIR$/Template/blob.cpp" />
+        <option value="$PROJECT_DIR$/Template/blob_class.cpp" />
+        <option value="$PROJECT_DIR$/Template/blob_use.h" />
         <option value="$PROJECT_DIR$/Template/template.cpp" />
+        <option value="$PROJECT_DIR$/Template/blob_ptr_use.h" />
+        <option value="$PROJECT_DIR$/Template/blob_ptr.h" />
       </list>
     </option>
   </component>
@@ -170,7 +222,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-3" />
     <option name="y" value="-1" />
     <option name="width" value="1372" />
@@ -271,12 +323,12 @@
       <workItem from="1543388265689" duration="250000" />
       <workItem from="1543392824901" duration="6078000" />
       <workItem from="1543537715448" duration="6460000" />
-      <workItem from="1543547029556" duration="2671000" />
+      <workItem from="1543547029556" duration="9463000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52380000" />
+    <option name="totallyTimeSpent" value="59172000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -288,10 +340,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-3" y="-25" width="1372" height="796" extended-state="6" />
+    <frame x="-3" y="-1" width="1372" height="772" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21903323" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.22356495" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -305,7 +357,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.3276923" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32923076" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.38020086" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.38" />
       <window_info anchor="bottom" id="CMake" order="12" weight="0.26542324" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -553,13 +605,62 @@
         </state>
       </provider>
     </entry>
+    <entry file="file:///usr/include/x86_64-linux-gnu/c++/7/bits/gthr-default.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="53">
+          <caret line="243" column="5" selection-start-line="243" selection-start-column="5" selection-end-line="243" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Template/blob_use.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="61">
+          <caret line="9" column="18" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Template/blob.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="33" column="57" selection-start-line="33" selection-start-column="57" selection-end-line="33" selection-end-column="57" />
+          <folding>
+            <element signature="e#89#106#0" expanded="true" />
+            <element signature="e#135#145#0" expanded="true" />
+            <element signature="e#170#180#0" expanded="true" />
+            <element signature="e#202#214#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Template/blob_ptr.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
+          <folding>
+            <element signature="e#97#116#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Template/template.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="55" column="58" selection-start-line="55" selection-start-column="58" selection-end-line="55" selection-end-column="58" />
+        <state relative-caret-position="184">
+          <caret line="55" column="50" selection-start-line="55" selection-start-column="50" selection-end-line="55" selection-end-column="50" />
           <folding>
             <element signature="e#39#58#0" expanded="true" />
-            <element signature="e#692#704#0" expanded="true" />
+            <element signature="e#393#417#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Template/blob_ptr_use.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+          <folding>
+            <element signature="e#71#83#0" expanded="true" />
+            <element signature="e#233#245#0" expanded="true" />
+            <element signature="e#349#361#0" expanded="true" />
           </folding>
         </state>
       </provider>

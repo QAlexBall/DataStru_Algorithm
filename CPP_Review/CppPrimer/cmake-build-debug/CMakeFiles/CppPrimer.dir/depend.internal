@@ -4,6 +4,9 @@
 CMakeFiles/CppPrimer.dir/C++11/StarBlob.cpp.o
  /home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimer/C++11/StarBlob.cpp
  /home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimer/C++11/StarBlob.h
-CMakeFiles/CppPrimer.dir/C++11/sharedptr.cpp.o
- /home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimer/C++11/StarBlob.h
- /home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimer/C++11/sharedptr.cpp
+CMakeFiles/CppPrimer.dir/Template/template.cpp.o
+ /home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimer/Template/blob.h
+ /home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimer/Template/blob_ptr.h
+ /home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimer/Template/blob_ptr_use.h
+ /home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimer/Template/blob_use.h
+ /home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimer/Template/template.cpp
