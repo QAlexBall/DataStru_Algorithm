@@ -19,8 +19,8 @@ public:
         auto p = check(curr, "dereference past end");
         return (*p)[curr];
     }
-    BlobPtr operator++();
-    BlobPtr operator--();
+    BlobPtr& operator++();
+    BlobPtr& operator--();
 private:
     // 若检查成功,check返回一个指向vector的shared_ptr
     std::shared_ptr<std::vector<T>> check(std::size_t, const std::string&) const;

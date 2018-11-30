@@ -51,9 +51,31 @@ void test() {
         squares[i] = static_cast<int>(i * i);
         cout << squares[i] << endl;
     }
-    cout << "hello" << endl;
-    BlobPtr<int> blob_ptr(squares, 0);
-    cout << "*blob ptr:" << *(++blob_ptr) << endl;
+
+    auto p = make_shared<int>(42);
+    weak_ptr<int> wp(p);
+    cout << wp.use_count() << endl;
+    cout << wp.expired() << endl;
+    cout << *wp.lock() << endl;
+
+    auto p1 = make_shared<string>("abandon");
+    weak_ptr<string> wp1(p1);
+    cout << *wp1.lock() << endl;
+
+    shared_ptr<vector<int>> p2 = make_shared<vector<int>>();
+    *p2 = {1, 3, 5, 128, 64};
+    cout << "*p2 = {1, 3, 5, 128, 64};" << endl;
+    auto p3 = p2;
+    const auto &p4 = p2;
+    cout << "p2->back(): " << p2->back() << endl;
+    weak_ptr<vector<int>> wp2(p2);
+    cout << "wp2.use_count(): " << wp2.use_count() << endl;
+    cout << "wp2.lock()->back(): " << wp2.lock()->back() << endl;
+
+    Blob<int> s1 = {1, 9, 5, 8};
+    Blob<int> s2 = s1;
+    BlobPtr<int> blob_ptr(s1, 1);
+    cout << "*blob ptr:" << *blob_ptr << endl;
 }
 
 int main() {
