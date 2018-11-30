@@ -12,21 +12,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ca949806-64bf-4673-a03c-569d37006c25" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Template/template.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C++11/StarBlob.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C++11/StarBlob.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C++11/sharedptr.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/alex.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/alex.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/template.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Template/template.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CppPrimer.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CppPrimer.dir/CXX.includecache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CppPrimer.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CppPrimer.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CppPrimer.dir/Template/template.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CppPrimer.dir/Template/template.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CppPrimer.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CppPrimer.dir/build.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CppPrimer.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CppPrimer.dir/cmake_clean.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CppPrimer.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CppPrimer.dir/depend.internal" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CppPrimer.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CppPrimer.dir/depend.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CppPrimer.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CppPrimer.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CppPrimer.dir/solution.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CppPrimer.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CppPrimer.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CppPrimer" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CppPrimer" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CppPrimer.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CppPrimer.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solution.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/C++11/solution.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CppPrimerPlus/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CppPrimerPlus/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,15 +48,15 @@
     <session id="-685920699">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="19" />
-          <entry key="project.open.time.0" value="2" />
+          <entry key="project.closed" value="20" />
+          <entry key="project.open.time.0" value="3" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="4" />
           <entry key="project.open.time.11" value="2" />
           <entry key="project.open.time.12" value="2" />
-          <entry key="project.open.time.8" value="8" />
+          <entry key="project.open.time.8" value="9" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="21" />
+          <entry key="project.opened" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -56,35 +64,37 @@
           <entry key="Makefile" value="1" />
           <entry key="cbp" value="1" />
           <entry key="cmake" value="1" />
-          <entry key="cpp" value="27" />
-          <entry key="h" value="12" />
+          <entry key="cpp" value="33" />
+          <entry key="h" value="17" />
+          <entry key="initializer_list" value="1" />
           <entry key="iosfwd" value="2" />
           <entry key="istream" value="1" />
           <entry key="ostream" value="1" />
-          <entry key="txt" value="37" />
+          <entry key="txt" value="40" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CMakeCache.txt" value="1" />
-          <entry key="CMakeLists.txt" value="9" />
-          <entry key="ObjectiveC" value="39" />
+          <entry key="CMakeLists.txt" value="12" />
+          <entry key="ObjectiveC" value="51" />
           <entry key="PLAIN_TEXT" value="27" />
           <entry key="Scratch" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cpp" value="8383" />
-          <entry key="h" value="423" />
+          <entry key="cpp" value="10665" />
+          <entry key="h" value="826" />
           <entry key="mm" value="6" />
-          <entry key="txt" value="181" />
+          <entry key="txt" value="190" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CMakeLists.txt" value="92" />
-          <entry key="ObjectiveC" value="8812" />
+          <entry key="CMakeLists.txt" value="101" />
+          <entry key="Doxygen file" value="3" />
+          <entry key="ObjectiveC" value="11494" />
           <entry key="PLAIN_TEXT" value="73" />
           <entry key="Scratch" value="16" />
         </counts>
@@ -96,22 +106,21 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Template/template.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="68" column="21" selection-start-line="68" selection-start-column="21" selection-end-line="68" selection-end-column="21" />
+            <state relative-caret-position="105">
+              <caret line="55" column="58" selection-start-line="55" selection-start-column="58" selection-end-line="55" selection-end-column="58" />
               <folding>
                 <element signature="e#39#58#0" expanded="true" />
-                <element signature="e#112#124#0" expanded="true" />
-                <element signature="e#276#288#0" expanded="true" />
-                <element signature="e#358#382#0" expanded="true" />
-                <element signature="e#490#502#0" expanded="true" />
-                <element signature="e#656#668#0" expanded="true" />
-                <element signature="e#1335#1347#0" expanded="true" />
-                <element signature="e#1368#1380#0" expanded="true" />
-                <element signature="e#1420#1432#0" expanded="true" />
-                <element signature="e#1493#1505#0" expanded="true" />
-                <element signature="e#1589#1601#0" expanded="true" />
-                <element signature="e#373#389#0" />
+                <element signature="e#692#704#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="46" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -146,6 +155,9 @@
         <option value="$PROJECT_DIR$/cmake-build-debug/a.txt" />
         <option value="$PROJECT_DIR$/IO/iotest.cpp" />
         <option value="$PROJECT_DIR$/solution.cpp" />
+        <option value="$PROJECT_DIR$/C++11/StarBlob.h" />
+        <option value="$PROJECT_DIR$/C++11/StarBlob.cpp" />
+        <option value="$PROJECT_DIR$/C++11/sharedptr.cpp" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/Template/template.cpp" />
       </list>
@@ -158,7 +170,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="x" value="-3" />
     <option name="y" value="-1" />
     <option name="width" value="1372" />
@@ -172,6 +184,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -182,18 +195,12 @@
             <path>
               <item name="CppPrimer" type="b2602c69:ProjectViewProjectNode" />
               <item name="CppPrimer" type="462c0819:PsiDirectoryNode" />
-              <item name="C++11" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CppPrimer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CppPrimer" type="462c0819:PsiDirectoryNode" />
               <item name="Template" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -263,11 +270,13 @@
       <workItem from="1543384444207" duration="3662000" />
       <workItem from="1543388265689" duration="250000" />
       <workItem from="1543392824901" duration="6078000" />
+      <workItem from="1543537715448" duration="6460000" />
+      <workItem from="1543547029556" duration="2671000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43249000" />
+    <option name="totallyTimeSpent" value="52380000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -279,15 +288,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-3" y="19" width="1372" height="752" extended-state="6" />
+    <frame x="-3" y="-25" width="1372" height="796" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21299094" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21903323" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3283582" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.36153847" />
+      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32711622" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.38615385" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -351,13 +360,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="860">
           <caret line="485" column="6" selection-start-line="485" selection-start-column="6" selection-end-line="485" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/C++11/use_vector.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
@@ -452,8 +454,43 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="27" column="4" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/c++/7/bits/stl_function.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="381" column="4" selection-start-line="381" selection-start-column="4" selection-end-line="381" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/c++/7/bits/stl_bvector.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="554" column="57" selection-start-line="554" selection-start-column="57" selection-end-line="554" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/c++/7/bits/shared_ptr.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="92" column="35" selection-start-line="92" selection-start-column="35" selection-end-line="92" selection-end-column="35" />
           <folding>
-            <element signature="e#39#58#0" expanded="true" />
+            <element signature="e#2837#2851#0" expanded="true" />
+            <element signature="e#2920#2939#0" expanded="true" />
+            <element signature="e#3065#3080#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/c++/7/bits/shared_ptr_base.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="1033" column="10" selection-start-line="1033" selection-start-column="10" selection-end-line="1033" selection-end-column="10" />
+          <folding>
+            <element signature="e#28510#28524#0" expanded="true" />
+            <element signature="e#28648#28764#0" expanded="true" />
+            <element signature="e#49612#49646#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -468,47 +505,61 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+    <entry file="file:///usr/include/c++/7/initializer_list">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+        <state relative-caret-position="918">
+          <caret line="54" column="42" selection-start-line="54" selection-start-column="42" selection-end-line="54" selection-end-column="42" />
         </state>
       </provider>
     </entry>
-    <entry file="file:///usr/include/c++/7/bits/stl_function.h">
+    <entry file="file://$PROJECT_DIR$/C++11/use_vector.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="381" column="4" selection-start-line="381" selection-start-column="4" selection-end-line="381" selection-end-column="4" />
+        <state relative-caret-position="187">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C++11/StarBlob.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="25" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C++11/sharedptr.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="547">
+          <caret line="54" column="1" lean-forward="true" selection-start-line="54" selection-start-column="1" selection-end-line="54" selection-end-column="1" />
           <folding>
-            <element signature="e#11636#11650#0" expanded="true" />
+            <element signature="e#451#470#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file:///usr/include/c++/7/bits/stl_bvector.h">
+    <entry file="file://$PROJECT_DIR$/C++11/StarBlob.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="554" column="57" selection-start-line="554" selection-start-column="57" selection-end-line="554" selection-end-column="57" />
+        <state relative-caret-position="459">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="e#97#114#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="46" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Template/template.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="68" column="21" selection-start-line="68" selection-start-column="21" selection-end-line="68" selection-end-column="21" />
+        <state relative-caret-position="105">
+          <caret line="55" column="58" selection-start-line="55" selection-start-column="58" selection-end-line="55" selection-end-column="58" />
           <folding>
             <element signature="e#39#58#0" expanded="true" />
-            <element signature="e#112#124#0" expanded="true" />
-            <element signature="e#276#288#0" expanded="true" />
-            <element signature="e#358#382#0" expanded="true" />
-            <element signature="e#490#502#0" expanded="true" />
-            <element signature="e#656#668#0" expanded="true" />
-            <element signature="e#1335#1347#0" expanded="true" />
-            <element signature="e#1368#1380#0" expanded="true" />
-            <element signature="e#1420#1432#0" expanded="true" />
-            <element signature="e#1493#1505#0" expanded="true" />
-            <element signature="e#1589#1601#0" expanded="true" />
-            <element signature="e#373#389#0" />
+            <element signature="e#692#704#0" expanded="true" />
           </folding>
         </state>
       </provider>

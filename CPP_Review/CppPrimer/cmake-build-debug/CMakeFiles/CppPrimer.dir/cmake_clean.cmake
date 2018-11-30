@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/CppPrimer.dir/Template/template.cpp.o"
+  "CMakeFiles/CppPrimer.dir/C++11/StarBlob.cpp.o"
   "CppPrimer.pdb"
   "CppPrimer"
 )

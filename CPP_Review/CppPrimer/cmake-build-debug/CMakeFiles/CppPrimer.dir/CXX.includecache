@@ -6,9 +6,23 @@
 
 #IncludeRegexTransform: 
 
-/home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimer/Template/template.cpp
+/home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimer/C++11/StarBlob.h
+string
+-
+vector
+-
+memory
+-
+
+/home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimer/C++11/sharedptr.cpp
 iostream
 -
-cstring
+memory
 -
+vector
+-
+list
+-
+StarBlob.h
+/home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimer/C++11/StarBlob.h
 

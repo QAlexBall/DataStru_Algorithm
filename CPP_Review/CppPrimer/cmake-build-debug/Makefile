@@ -123,6 +123,33 @@ CppPrimer/fast:
 	$(MAKE) -f CMakeFiles/CppPrimer.dir/build.make CMakeFiles/CppPrimer.dir/build
 .PHONY : CppPrimer/fast
 
+C++11/StarBlob.o: C++11/StarBlob.cpp.o
+
+.PHONY : C++11/StarBlob.o
+
+# target to build an object file
+C++11/StarBlob.cpp.o:
+	$(MAKE) -f CMakeFiles/CppPrimer.dir/build.make CMakeFiles/CppPrimer.dir/C++11/StarBlob.cpp.o
+.PHONY : C++11/StarBlob.cpp.o
+
+C++11/StarBlob.i: C++11/StarBlob.cpp.i
+
+.PHONY : C++11/StarBlob.i
+
+# target to preprocess a source file
+C++11/StarBlob.cpp.i:
+	$(MAKE) -f CMakeFiles/CppPrimer.dir/build.make CMakeFiles/CppPrimer.dir/C++11/StarBlob.cpp.i
+.PHONY : C++11/StarBlob.cpp.i
+
+C++11/StarBlob.s: C++11/StarBlob.cpp.s
+
+.PHONY : C++11/StarBlob.s
+
+# target to generate assembly for a file
+C++11/StarBlob.cpp.s:
+	$(MAKE) -f CMakeFiles/CppPrimer.dir/build.make CMakeFiles/CppPrimer.dir/C++11/StarBlob.cpp.s
+.PHONY : C++11/StarBlob.cpp.s
+
 Template/template.o: Template/template.cpp.o
 
 .PHONY : Template/template.o
@@ -159,6 +186,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... CppPrimer"
+	@echo "... C++11/StarBlob.o"
+	@echo "... C++11/StarBlob.i"
+	@echo "... C++11/StarBlob.s"
 	@echo "... Template/template.o"
 	@echo "... Template/template.i"
 	@echo "... Template/template.s"

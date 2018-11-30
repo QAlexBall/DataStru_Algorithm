@@ -12,20 +12,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bae7b4c7-8ca0-4333-b7ac-5580521e7f22" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../C++Sort/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../C++Sort/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../C++Sort/Sort/sort.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../C++Sort/Sort/sort.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/alex.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/alex.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CppPrimerPlus.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CppPrimerPlus.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CppPrimerPlus.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CppPrimerPlus.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CppPrimerPlus.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CppPrimerPlus.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CppPrimerPlus.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CppPrimerPlus.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CppPrimerPlus.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CppPrimerPlus.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CppPrimerPlus.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CppPrimerPlus.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CppPrimer/C++11/StarBlob.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CppPrimer/C++11/StarBlob.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CppPrimer/C++11/sharedptr.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CppPrimer/.idea/dictionaries/alex.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CppPrimer/.idea/dictionaries/alex.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CppPrimer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CppPrimer/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CppPrimer/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../CppPrimer/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CppPrimer/Template/template.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../CppPrimer/Template/template.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CppPrimer/cmake-build-debug/CMakeFiles/CppPrimer.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../CppPrimer/cmake-build-debug/CMakeFiles/CppPrimer.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CppPrimer/cmake-build-debug/CMakeFiles/CppPrimer.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../CppPrimer/cmake-build-debug/CMakeFiles/CppPrimer.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CppPrimer/cmake-build-debug/CMakeFiles/CppPrimer.dir/Template/template.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../CppPrimer/cmake-build-debug/CMakeFiles/CppPrimer.dir/Template/template.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CppPrimer/cmake-build-debug/CMakeFiles/CppPrimer.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../CppPrimer/cmake-build-debug/CMakeFiles/CppPrimer.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CppPrimer/cmake-build-debug/CMakeFiles/CppPrimer.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../CppPrimer/cmake-build-debug/CMakeFiles/CppPrimer.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CppPrimer/cmake-build-debug/CMakeFiles/CppPrimer.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/../CppPrimer/cmake-build-debug/CMakeFiles/CppPrimer.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CppPrimer/cmake-build-debug/CMakeFiles/CppPrimer.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../CppPrimer/cmake-build-debug/CMakeFiles/CppPrimer.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CppPrimer/cmake-build-debug/CMakeFiles/CppPrimer.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../CppPrimer/cmake-build-debug/CMakeFiles/CppPrimer.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CppPrimer/cmake-build-debug/CMakeFiles/CppPrimer.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../CppPrimer/cmake-build-debug/CMakeFiles/CppPrimer.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CppPrimer/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../CppPrimer/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CppPrimer/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/../CppPrimer/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CppPrimer/cmake-build-debug/CppPrimer" beforeDir="false" afterPath="$PROJECT_DIR$/../CppPrimer/cmake-build-debug/CppPrimer" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CppPrimer/cmake-build-debug/CppPrimer.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../CppPrimer/cmake-build-debug/CppPrimer.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CppPrimer/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../CppPrimer/cmake-build-debug/Makefile" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,21 +46,21 @@
     <session id="-1880694389">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="17" />
-          <entry key="project.open.time.0" value="1" />
+          <entry key="project.closed" value="18" />
+          <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.10" value="4" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.8" value="2" />
           <entry key="project.open.time.9" value="6" />
-          <entry key="project.opened" value="17" />
+          <entry key="project.opened" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="cpp" value="11" />
-          <entry key="h" value="7" />
+          <entry key="cpp" value="13" />
+          <entry key="h" value="9" />
           <entry key="iosfwd" value="1" />
           <entry key="iostream" value="2" />
           <entry key="ostream" value="2" />
@@ -63,7 +70,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CMakeLists.txt" value="1" />
-          <entry key="ObjectiveC" value="23" />
+          <entry key="ObjectiveC" value="27" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -95,11 +102,47 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MyHash/myhash.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="442">
               <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/OOP/mytime0.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="697">
+              <caret line="42" selection-start-line="42" selection-end-line="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/OOP/mytime0.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/OOP/stack.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="527">
+              <caret line="31" column="21" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/OOP/stack.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -138,7 +181,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="x" value="591" />
     <option name="y" value="1" />
     <option name="width" value="775" />
@@ -152,6 +195,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -159,16 +203,10 @@
               <item name="CppPrimerPlus" type="b2602c69:ProjectViewProjectNode" />
               <item name="CppPrimerPlus" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="CppPrimerPlus" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CppPrimerPlus" type="462c0819:PsiDirectoryNode" />
-              <item name="MyHash" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -232,11 +270,12 @@
       <workItem from="1540877071059" duration="11000" />
       <workItem from="1542181296161" duration="3970000" />
       <workItem from="1542243343794" duration="13000" />
+      <workItem from="1543545685842" duration="34000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28790000" />
+    <option name="totallyTimeSpent" value="28824000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -248,9 +287,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-3" y="-1" width="1372" height="772" extended-state="6" />
+    <frame x="-3" y="-25" width="1372" height="796" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49846154" visible="true" weight="0.30664653" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49846154" visible="true" weight="0.31117824" />
       <window_info id="Structure" order="1" sideWeight="0.50153846" side_tool="true" weight="0.25377643" />
       <window_info id="Favorites" order="2" sideWeight="0.50153846" side_tool="true" weight="0.25377643" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -324,13 +363,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/OOP/mytime0.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="42" selection-start-line="42" selection-end-line="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/include/c++/7/ostream">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="321">
@@ -374,13 +406,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/OOP/mytime0.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/OOP/mytime1.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -395,20 +420,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/OOP/stack.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OOP/stack.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="21" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MyHash/myhash.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="663">
@@ -420,6 +431,34 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
           <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OOP/mytime0.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OOP/mytime0.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OOP/stack.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="21" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OOP/stack.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
         </state>
       </provider>
     </entry>

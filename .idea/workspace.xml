@@ -10,9 +10,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="192d453d-a495-44e8-bba3-567e64c097bf" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/CPP_Review/CppPrimer/OOP/quote.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/CPP_Review/CppPrimer/OOP/quote.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructure/Graph/ALGraph.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructure/Graph/ALGraph.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructure/Graph/ALGraph.h" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructure/Graph/ALGraph.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CPP_Review/CppPrimer/C++11/StarBlob.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CPP_Review/CppPrimer/C++11/StarBlob.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CPP_Review/CppPrimer/C++11/sharedptr.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CPP_Review/CppPrimer/.idea/dictionaries/alex.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CPP_Review/CppPrimer/.idea/dictionaries/alex.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CPP_Review/CppPrimer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CPP_Review/CppPrimer/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CPP_Review/CppPrimer/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CPP_Review/CppPrimer/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CPP_Review/CppPrimer/Template/template.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/CPP_Review/CppPrimer/Template/template.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CPP_Review/CppPrimer/cmake-build-debug/CMakeFiles/CppPrimer.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/CPP_Review/CppPrimer/cmake-build-debug/CMakeFiles/CppPrimer.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CPP_Review/CppPrimer/cmake-build-debug/CMakeFiles/CppPrimer.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/CPP_Review/CppPrimer/cmake-build-debug/CMakeFiles/CppPrimer.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CPP_Review/CppPrimer/cmake-build-debug/CMakeFiles/CppPrimer.dir/Template/template.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/CPP_Review/CppPrimer/cmake-build-debug/CMakeFiles/CppPrimer.dir/Template/template.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CPP_Review/CppPrimer/cmake-build-debug/CMakeFiles/CppPrimer.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/CPP_Review/CppPrimer/cmake-build-debug/CMakeFiles/CppPrimer.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CPP_Review/CppPrimer/cmake-build-debug/CMakeFiles/CppPrimer.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/CPP_Review/CppPrimer/cmake-build-debug/CMakeFiles/CppPrimer.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CPP_Review/CppPrimer/cmake-build-debug/CMakeFiles/CppPrimer.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/CPP_Review/CppPrimer/cmake-build-debug/CMakeFiles/CppPrimer.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CPP_Review/CppPrimer/cmake-build-debug/CMakeFiles/CppPrimer.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/CPP_Review/CppPrimer/cmake-build-debug/CMakeFiles/CppPrimer.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CPP_Review/CppPrimer/cmake-build-debug/CMakeFiles/CppPrimer.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CPP_Review/CppPrimer/cmake-build-debug/CMakeFiles/CppPrimer.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CPP_Review/CppPrimer/cmake-build-debug/CMakeFiles/CppPrimer.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/CPP_Review/CppPrimer/cmake-build-debug/CMakeFiles/CppPrimer.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CPP_Review/CppPrimer/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/CPP_Review/CppPrimer/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CPP_Review/CppPrimer/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/CPP_Review/CppPrimer/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CPP_Review/CppPrimer/cmake-build-debug/CppPrimer" beforeDir="false" afterPath="$PROJECT_DIR$/CPP_Review/CppPrimer/cmake-build-debug/CppPrimer" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CPP_Review/CppPrimer/cmake-build-debug/CppPrimer.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/CPP_Review/CppPrimer/cmake-build-debug/CppPrimer.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CPP_Review/CppPrimer/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/CPP_Review/CppPrimer/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CPP_Review/CppPrimerPlus/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CPP_Review/CppPrimerPlus/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,27 +43,30 @@
     <session id="227270311">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="cpp" value="1" />
-          <entry key="h" value="1" />
+          <entry key="c" value="21" />
+          <entry key="cpp" value="5" />
+          <entry key="h" value="3" />
           <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CMakeLists.txt" value="1" />
-          <entry key="ObjectiveC" value="2" />
+          <entry key="ObjectiveC" value="29" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="c" value="2" />
           <entry key="cpp" value="3" />
           <entry key="txt" value="9" />
         </counts>
@@ -52,43 +74,13 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CMakeLists.txt" value="9" />
-          <entry key="ObjectiveC" value="3" />
+          <entry key="ObjectiveC" value="5" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/DataStructure/Graph/ALGraph.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DataStructure/CMakeLists.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="15" selection-start-column="15" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DataStructure/Graph/ALGraph.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#31#445#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -105,6 +97,7 @@
       <list>
         <option value="$PROJECT_DIR$/DataStructure/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/DataStructure/Graph/ALGraph.cpp" />
+        <option value="$PROJECT_DIR$/C_Review/String/arrchar.c" />
       </list>
     </option>
   </component>
@@ -133,17 +126,6 @@
             <path>
               <item name="DataStru_Algorithm" type="b2602c69:ProjectViewProjectNode" />
               <item name="DataStru_Algorithm" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DataStru_Algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DataStru_Algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="DataStructure" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DataStru_Algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DataStru_Algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="DataStructure" type="462c0819:PsiDirectoryNode" />
-              <item name="Graph" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -181,16 +163,17 @@
       <updated>1540800788635</updated>
       <workItem from="1540800789937" duration="75000" />
       <workItem from="1540876997192" duration="30000" />
+      <workItem from="1543545720644" duration="907000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="105000" />
+    <option name="totallyTimeSpent" value="1012000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-3" y="-1" width="1372" height="772" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25377643" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25755286" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -232,12 +215,124 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/DataStructure/Graph/ALGraph.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CPP_Review/C++Sort/Sort/sort.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="153">
+          <caret line="9" column="18" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
           <folding>
-            <element signature="e#31#445#0" expanded="true" />
+            <element signature="e#253#262#0" expanded="true" />
           </folding>
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CPP_Review/C++Sort/Sort/sort.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CPP_Review/C++P/iotest.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C_Review/Storage_Class/diceroll.c">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C_Review/Storage_Class/dyn_arr.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="469">
+          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C_Review/Storage_Class/forc99.c">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C_Review/Storage_Class/global.c">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C_Review/Storage_Class/hiding.c">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C_Review/Storage_Class/loc_stat.c">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C_Review/Storage_Class/parta.c">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C_Review/Storage_Class/partb.c">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C_Review/String/addresses.c">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C_Review/String/arrchar.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C_Review/String/fgets1.c">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C_Review/String/strptr.c">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C_Review/String/strings1.c">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C_Review/String_Func/str_cat.c">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C_Review/VLA.c">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C_Review/String_Func/test_fit.c">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithm/RBTree.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithm/RBTree.c">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithm/DynamicProgramming/Fibonacci.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C_Review/Bit_Operation/binbit.c">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C_Review/Bit_Operation/invert4.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C_Review/Bit_Operation/fields.c">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataStructure/Graph/Dijkstra.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2159">
+          <caret line="127" column="14" selection-start-line="127" selection-start-column="14" selection-end-line="127" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataStructure/Graph/Dijkstra.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-160" />
       </provider>
     </entry>
   </component>

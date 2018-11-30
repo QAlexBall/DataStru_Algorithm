@@ -84,6 +84,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimer/C++11/StarBlob.cpp">
+			<Option target="CppPrimer"/>
+		</Unit>
+		<Unit filename="/home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimer/C++11/StarBlob.h">
+			<Option target="CppPrimer"/>
+		</Unit>
 		<Unit filename="/home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimer/Template/template.cpp">
 			<Option target="CppPrimer"/>
 		</Unit>

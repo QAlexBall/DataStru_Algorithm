@@ -41,7 +41,7 @@ template <typename T> class Blob {
 public:
     typedef T value_type;
     typedef typename std::vector<T>::size_type size_type;
-    Blob() = default;
+    Blob();
     Blob(std::initializer_list<T> il);
     size_type size() const { return data->size(); }
     bool empty() const { return data-> empty(); }
@@ -54,14 +54,13 @@ private:
     std::shared_ptr<vector<T>> data;
     // 若data[i]无效,则抛出msg.
     void check(size_type i, const std::string &msg) const;
-
 };
 
+template<typename T>
+Blob<T>::Blob() : data(std::make_shared<std::vector<T>>()) {}
 
 template<typename T>
-Blob<T>::Blob(initializer_list<T> il) {
-
-}
+Blob<T>::Blob(initializer_list<T> il) : data(std::make_shared<std::vector<T>>(il)) {}
 
 template<typename T>
 void Blob<T>::pop_back() {
@@ -93,6 +92,15 @@ void test() {
     cout << compare("abc", "xyz") << endl; // "xyz" < "abc" ???
     cout << compare1("bcd", "abc") << endl; // int compare(const char (&p1)[3], const char (&p2)[3])
     cout << compare2("abc", "xyz") << endl;
+
+    // 类模板成员函数的实例化
+    /* 实例化Blob<int>和接受initializer_list<int>的构造函数 */
+    Blob<int> squares = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
+    /* 实例化Blob<int>::size() const */
+    for (size_t i = 0; i != squares.size(); ++i) {
+        squares[i] = static_cast<int>(i * i);
+        cout << squares[i] << endl;
+    }
 }
 
 //void test1() {
