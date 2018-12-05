@@ -3,10 +3,11 @@
 //
 #include <iostream>
 #include <vector>
+#include <memory>
 #include "OOP/quote.h"
 //using namespace std;
 
-void inOut() {
+void in_out() {
     std::filebuf fb;
     fb.open("test.txt",std::ios::out);
     std::ostream os(&fb);
@@ -21,7 +22,7 @@ void inOut() {
     file.close();
 }
 
-void useAuto() {
+void use_auto() {
     int a[] = {1, 2, 3, 4, 5};
     for (auto &i : a) {
         cout << i << endl;
@@ -37,7 +38,7 @@ int sum(double a, double b) {
     return static_cast<int>(a + b);
 }
 
-void useVector() {
+void use_vector() {
     vector<int> vec = {1, 2, 3};
     vec.push_back(4);
     for (auto &i : vec) {
@@ -46,7 +47,7 @@ void useVector() {
 
 }
 
-void useDecltype() {
+void use_decltype() {
     double d = 1.0;
     decltype(d) s = sum(1, 2);
     cout << s << endl;
@@ -58,7 +59,7 @@ void useDecltype() {
     c = 3; // right, auto会忽略底层const
 }
 
-void constUpDown() {
+void const_up_down() {
     int num_c = 3;
     const int *p_c = &num_c;  //p_c为底层const的指针
     // int *p_d = p_c;  //错误，不能将底层const指针赋值给非底层const指针
@@ -87,8 +88,57 @@ void constUpDown() {
      */
 }
 
+void unique_ptr_test() {
+    unique_ptr<int[]> up(new int[10]{1, 2, 3, 4, 5});
+    cout << "up[0]: " << up[0] << endl;
+    cout << "*up.get(): " << *up.get() << endl;
+    up.release();   // 自动用delete[]销毁其指针
+}
+
+int get_size() {
+    return static_cast<int>(random() % 15);
+}
+void allocator_test() {
+//    int n = get_size();
+//    auto *const p = new string[n];
+//    string s;
+//    string *q = p;
+//    while (cin >> s && q != p + n)
+//        *q++ = s;
+//    const size_t size = q - p;
+//    delete[] p; // p指向一个数组,记得使用delete[]释放
+
+    int n = 1000;
+    allocator<string> alloc;
+    auto const p = alloc.allocate(static_cast<unsigned long>(n));
+    auto q = p;
+    alloc.construct(q++);
+    alloc.construct(q++, 10, 'c');
+    alloc.construct(q++, "hi");
+    cout << "p[1]: " << p[1] << endl;           // output : p[1]: cccccccccc
+    cout << "p[0]: " << p[0] << endl;           // output : p[0]:
+    cout << "p[2]: " << p[2] << endl;           // output : p[2]: hi
+
+    while (q != p)  // 对每个构造的元素调用destroy来销毁.
+        alloc.destroy(--q);
+
+    alloc.deallocate(p, static_cast<unsigned long>(n)); // 释放内存
+}
 int main () {
-//    useDecltype();
-    useVector();
+    use_vector();
+    unique_ptr_test();
+    allocator_test();
+
+    string text;
+    ifstream is("a.txt");
+    while (is >> text) {
+        cout << text << endl;
+    }
+    ifstream is1("b.txt");
+    string text1;
+    while (getline(is1, text1)) {
+        cout << text1 << endl;
+    }
+
     return 0;
 }

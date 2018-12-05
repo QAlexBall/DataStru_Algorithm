@@ -5,7 +5,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimer/C++11/StarBlob.cpp" "/home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimer/cmake-build-debug/CMakeFiles/CppPrimer.dir/C++11/StarBlob.cpp.o"
-  "/home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimer/Template/template.cpp" "/home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimer/cmake-build-debug/CMakeFiles/CppPrimer.dir/Template/template.cpp.o"
+  "/home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimer/TextQurey/text_query.cpp" "/home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimer/cmake-build-debug/CMakeFiles/CppPrimer.dir/TextQurey/text_query.cpp.o"
+  "/home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimer/main.cpp" "/home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimer/cmake-build-debug/CMakeFiles/CppPrimer.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

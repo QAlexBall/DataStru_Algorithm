@@ -150,32 +150,59 @@ C++11/StarBlob.cpp.s:
 	$(MAKE) -f CMakeFiles/CppPrimer.dir/build.make CMakeFiles/CppPrimer.dir/C++11/StarBlob.cpp.s
 .PHONY : C++11/StarBlob.cpp.s
 
-Template/template.o: Template/template.cpp.o
+TextQurey/text_query.o: TextQurey/text_query.cpp.o
 
-.PHONY : Template/template.o
+.PHONY : TextQurey/text_query.o
 
 # target to build an object file
-Template/template.cpp.o:
-	$(MAKE) -f CMakeFiles/CppPrimer.dir/build.make CMakeFiles/CppPrimer.dir/Template/template.cpp.o
-.PHONY : Template/template.cpp.o
+TextQurey/text_query.cpp.o:
+	$(MAKE) -f CMakeFiles/CppPrimer.dir/build.make CMakeFiles/CppPrimer.dir/TextQurey/text_query.cpp.o
+.PHONY : TextQurey/text_query.cpp.o
 
-Template/template.i: Template/template.cpp.i
+TextQurey/text_query.i: TextQurey/text_query.cpp.i
 
-.PHONY : Template/template.i
+.PHONY : TextQurey/text_query.i
 
 # target to preprocess a source file
-Template/template.cpp.i:
-	$(MAKE) -f CMakeFiles/CppPrimer.dir/build.make CMakeFiles/CppPrimer.dir/Template/template.cpp.i
-.PHONY : Template/template.cpp.i
+TextQurey/text_query.cpp.i:
+	$(MAKE) -f CMakeFiles/CppPrimer.dir/build.make CMakeFiles/CppPrimer.dir/TextQurey/text_query.cpp.i
+.PHONY : TextQurey/text_query.cpp.i
 
-Template/template.s: Template/template.cpp.s
+TextQurey/text_query.s: TextQurey/text_query.cpp.s
 
-.PHONY : Template/template.s
+.PHONY : TextQurey/text_query.s
 
 # target to generate assembly for a file
-Template/template.cpp.s:
-	$(MAKE) -f CMakeFiles/CppPrimer.dir/build.make CMakeFiles/CppPrimer.dir/Template/template.cpp.s
-.PHONY : Template/template.cpp.s
+TextQurey/text_query.cpp.s:
+	$(MAKE) -f CMakeFiles/CppPrimer.dir/build.make CMakeFiles/CppPrimer.dir/TextQurey/text_query.cpp.s
+.PHONY : TextQurey/text_query.cpp.s
+
+main.o: main.cpp.o
+
+.PHONY : main.o
+
+# target to build an object file
+main.cpp.o:
+	$(MAKE) -f CMakeFiles/CppPrimer.dir/build.make CMakeFiles/CppPrimer.dir/main.cpp.o
+.PHONY : main.cpp.o
+
+main.i: main.cpp.i
+
+.PHONY : main.i
+
+# target to preprocess a source file
+main.cpp.i:
+	$(MAKE) -f CMakeFiles/CppPrimer.dir/build.make CMakeFiles/CppPrimer.dir/main.cpp.i
+.PHONY : main.cpp.i
+
+main.s: main.cpp.s
+
+.PHONY : main.s
+
+# target to generate assembly for a file
+main.cpp.s:
+	$(MAKE) -f CMakeFiles/CppPrimer.dir/build.make CMakeFiles/CppPrimer.dir/main.cpp.s
+.PHONY : main.cpp.s
 
 # Help Target
 help:
@@ -189,9 +216,12 @@ help:
 	@echo "... C++11/StarBlob.o"
 	@echo "... C++11/StarBlob.i"
 	@echo "... C++11/StarBlob.s"
-	@echo "... Template/template.o"
-	@echo "... Template/template.i"
-	@echo "... Template/template.s"
+	@echo "... TextQurey/text_query.o"
+	@echo "... TextQurey/text_query.i"
+	@echo "... TextQurey/text_query.s"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
 .PHONY : help
 
 

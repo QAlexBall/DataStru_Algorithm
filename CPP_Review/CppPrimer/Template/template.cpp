@@ -74,8 +74,13 @@ void test() {
 
     Blob<int> s1 = {1, 9, 5, 8};
     Blob<int> s2 = s1;
-    BlobPtr<int> blob_ptr(s1, 1);
+    BlobPtr<int> blob_ptr(s1, 0);
+    cout << "blob_ptr: " << *blob_ptr << endl;
     cout << "*blob_ptr.increment:" << *blob_ptr.increment() << endl;
+    cout << "*(++blob_ptr): " << *(++blob_ptr) << endl;
+    cout << "*(--blob_ptr): " << *(--blob_ptr) << endl;
+
+    cout << "random(): " << random() % 100 << endl; // 取一个100内的随机整数
 }
 
 int main() {

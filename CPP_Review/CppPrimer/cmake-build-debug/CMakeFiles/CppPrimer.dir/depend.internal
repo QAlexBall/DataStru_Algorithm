@@ -4,9 +4,9 @@
 CMakeFiles/CppPrimer.dir/C++11/StarBlob.cpp.o
  /home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimer/C++11/StarBlob.cpp
  /home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimer/C++11/StarBlob.h
-CMakeFiles/CppPrimer.dir/Template/template.cpp.o
- /home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimer/Template/blob.h
- /home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimer/Template/blob_ptr.h
- /home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimer/Template/blob_ptr_use.h
- /home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimer/Template/blob_use.h
- /home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimer/Template/template.cpp
+CMakeFiles/CppPrimer.dir/TextQurey/text_query.cpp.o
+ /home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimer/TextQurey/text_query.cpp
+ /home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimer/TextQurey/text_query.h
+CMakeFiles/CppPrimer.dir/main.cpp.o
+ /home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimer/OOP/quote.h
+ /home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimer/main.cpp

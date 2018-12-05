@@ -6,7 +6,6 @@
 #define CPPPRIMER_BLOB_H
 #include <vector>
 #include <memory>
-
 template <typename> class BlobPtr;
 template <typename> class Blob;
 template <typename T>

@@ -21,7 +21,9 @@ public:
     T& deref() const;
     BlobPtr& increment();
     BlobPtr& operator++();
+    BlobPtr operator++(int);
     BlobPtr& operator--();
+    BlobPtr operator--(int);
 private:
     // 若检查成功,check返回一个指向vector的shared_ptr
     std::shared_ptr<std::vector<T>> check(std::size_t, const std::string&) const;
