@@ -6,13 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimer/OOP/quote.h
-utility
--
+/home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimer/TextQurey/query_result.cpp
 iostream
 -
-fstream
--
+query_result.h
+/home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimer/TextQurey/query_result.h
 
 /home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimer/TextQurey/query_result.h
 utility
@@ -21,30 +19,4 @@ regex
 -
 set
 -
-
-/home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimer/TextQurey/text_query.h
-vector
--
-string
--
-memory
--
-map
--
-set
--
-
-/home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimer/main.cpp
-iostream
--
-vector
--
-memory
--
-OOP/quote.h
-/home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimer/OOP/quote.h
-TextQurey/text_query.h
-/home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimer/TextQurey/text_query.h
-TextQurey/query_result.h
-/home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimer/TextQurey/query_result.h
 

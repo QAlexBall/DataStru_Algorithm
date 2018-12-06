@@ -15,29 +15,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ca949806-64bf-4673-a03c-569d37006c25" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TextQurey/query_result.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TextQurey/query_result.h" beforeDir="false" afterPath="$PROJECT_DIR$/TextQurey/query_result.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TextQurey/text_query.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/TextQurey/text_query.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TextQurey/text_query.h" beforeDir="false" afterPath="$PROJECT_DIR$/TextQurey/text_query.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CppPrimer.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CppPrimer.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CppPrimer.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CppPrimer.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CppPrimer.dir/TextQurey/text_query.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CppPrimer.dir/TextQurey/text_query.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CppPrimer.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CppPrimer.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CppPrimer.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CppPrimer.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CppPrimer.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CppPrimer.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CppPrimer.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CppPrimer.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CppPrimer.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CppPrimer.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CppPrimer.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CppPrimer.dir/main.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CppPrimer.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CppPrimer.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CppPrimer" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CppPrimer" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CppPrimer.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CppPrimer.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextQurey/query_result.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/TextQurey/query_result.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CppPrimer.dir/TextQurey/query_result.cpp.o" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -51,7 +30,7 @@
     <session id="-685920699">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="24" />
+          <entry key="project.closed" value="25" />
           <entry key="project.open.time.0" value="3" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="5" />
@@ -68,8 +47,8 @@
           <entry key="Makefile" value="1" />
           <entry key="cbp" value="1" />
           <entry key="cmake" value="1" />
-          <entry key="cpp" value="61" />
-          <entry key="h" value="58" />
+          <entry key="cpp" value="62" />
+          <entry key="h" value="59" />
           <entry key="initializer_list" value="1" />
           <entry key="iosfwd" value="2" />
           <entry key="istream" value="1" />
@@ -82,14 +61,14 @@
         <counts>
           <entry key="CMakeCache.txt" value="1" />
           <entry key="CMakeLists.txt" value="14" />
-          <entry key="ObjectiveC" value="121" />
+          <entry key="ObjectiveC" value="123" />
           <entry key="PLAIN_TEXT" value="31" />
           <entry key="Scratch" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cpp" value="15983" />
+          <entry key="cpp" value="16088" />
           <entry key="h" value="4266" />
           <entry key="mm" value="6" />
           <entry key="txt" value="228" />
@@ -99,7 +78,7 @@
         <counts>
           <entry key="CMakeLists.txt" value="130" />
           <entry key="Doxygen file" value="3" />
-          <entry key="ObjectiveC" value="20252" />
+          <entry key="ObjectiveC" value="20357" />
           <entry key="PLAIN_TEXT" value="82" />
           <entry key="Scratch" value="16" />
         </counts>
@@ -107,14 +86,14 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5083082">
+    <splitter split-orientation="horizontal" split-proportion="0.5558912">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/main.cpp">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="102">
-                  <caret line="6" column="22" lean-forward="true" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+                <state relative-caret-position="466">
+                  <caret line="137" column="1" lean-forward="true" selection-start-line="137" selection-start-column="1" selection-end-line="137" selection-end-column="1" />
                   <folding>
                     <element signature="e#38#57#0" expanded="true" />
                     <element signature="e#141#426#0" />
@@ -127,7 +106,6 @@
                     <element signature="e#2239#2301#0" />
                     <element signature="e#2302#3135#0" />
                     <element signature="e#3137#3170#0" expanded="true" />
-                    <element signature="e#3207#3250#0" />
                     <element signature="e#3136#3450#0" />
                   </folding>
                 </state>
@@ -141,6 +119,18 @@
                   <caret line="20" column="60" selection-start-line="20" selection-start-column="60" selection-end-line="20" selection-end-column="60" />
                   <folding>
                     <element signature="e#37#55#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/TextQurey/text_query.h">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="493">
+                  <caret line="29" selection-start-line="29" selection-end-line="29" />
+                  <folding>
+                    <element signature="e#101#118#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -165,8 +155,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/TextQurey/query_result.cpp">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="306">
-                  <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+                <state relative-caret-position="340">
+                  <caret line="20" selection-start-line="20" selection-end-line="20" />
                   <folding>
                     <element signature="e#38#57#0" expanded="true" />
                   </folding>
@@ -227,8 +217,8 @@
         <option value="$PROJECT_DIR$/TextQurey/text_query.h" />
         <option value="$PROJECT_DIR$/TextQurey/text_query.cpp" />
         <option value="$PROJECT_DIR$/TextQurey/query_result.h" />
-        <option value="$PROJECT_DIR$/TextQurey/query_result.cpp" />
         <option value="$PROJECT_DIR$/main.cpp" />
+        <option value="$PROJECT_DIR$/TextQurey/query_result.cpp" />
       </list>
     </option>
   </component>
@@ -239,7 +229,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-3" />
     <option name="y" value="-1" />
     <option name="width" value="1372" />
@@ -349,12 +339,12 @@
       <workItem from="1543567030867" duration="7223000" />
       <workItem from="1543874784489" duration="92000" />
       <workItem from="1543961715981" duration="10398000" />
-      <workItem from="1544056508950" duration="3736000" />
+      <workItem from="1544056508950" duration="4991000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80621000" />
+    <option name="totallyTimeSpent" value="81876000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -366,7 +356,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-3" y="-1" width="1372" height="772" extended-state="7" />
+    <frame x="-3" y="-1" width="1372" height="772" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.21752267" />
@@ -374,7 +364,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32711622" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.56241035" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.56153846" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -383,7 +373,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.3276923" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32923076" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.3773314" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.37692308" />
       <window_info anchor="bottom" id="CMake" order="12" weight="0.37076923" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -648,46 +638,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TextQurey/text_query.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
-          <folding>
-            <element signature="e#101#118#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TextQurey/query_result.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="e#38#57#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TextQurey/query_result.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="66" lean-forward="true" selection-start-line="13" selection-start-column="66" selection-end-line="13" selection-end-column="66" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TextQurey/text_query.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="60" selection-start-line="20" selection-start-column="60" selection-end-line="20" selection-end-column="60" />
-          <folding>
-            <element signature="e#37#55#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Template/template.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -746,10 +696,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/TextQurey/text_query.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="e#101#118#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TextQurey/query_result.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="66" lean-forward="true" selection-start-line="13" selection-start-column="66" selection-end-line="13" selection-end-column="66" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="22" lean-forward="true" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+        <state relative-caret-position="466">
+          <caret line="137" column="1" lean-forward="true" selection-start-line="137" selection-start-column="1" selection-end-line="137" selection-end-column="1" />
           <folding>
             <element signature="e#38#57#0" expanded="true" />
             <element signature="e#141#426#0" />
@@ -762,8 +732,27 @@
             <element signature="e#2239#2301#0" />
             <element signature="e#2302#3135#0" />
             <element signature="e#3137#3170#0" expanded="true" />
-            <element signature="e#3207#3250#0" />
             <element signature="e#3136#3450#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TextQurey/text_query.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="60" selection-start-line="20" selection-start-column="60" selection-end-line="20" selection-end-column="60" />
+          <folding>
+            <element signature="e#37#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TextQurey/query_result.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#38#57#0" expanded="true" />
           </folding>
         </state>
       </provider>

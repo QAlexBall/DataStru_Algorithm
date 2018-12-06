@@ -14,5 +14,9 @@ std::ostream &print(std::ostream &os, const QueryResult &qr) {
     // 如果找到了单词,打印出出现次数和所有出现的位置
     os << qr.sought_ << " occurs " << qr.lines_->size() << " "
        << make_plural(qr.lines_->size(), "time", "s") << std::endl;
+
+    for (auto num : *qr.lines_)
+        os << "\t(line " << num + 1 << ") "
+           << *(qr.file_->begin() + num) << std::endl;
     return os;
 }
