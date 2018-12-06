@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/TextQurey/text_query.h" description="#include &lt;vector&gt;&#10;#include &lt;string&gt;&#10;#include &lt;memo..." line="7" />
+  </component>
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
     <generated>
       <config projectName="CppPrimer" targetName="CppPrimer" />
@@ -12,18 +15,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ca949806-64bf-4673-a03c-569d37006c25" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/TextQurey/query_result.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TextQurey/text_query.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TextQurey/text_query.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TextQurey/query_result.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Template/blob.h" beforeDir="false" afterPath="$PROJECT_DIR$/Template/blob.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Template/blob_ptr.h" beforeDir="false" afterPath="$PROJECT_DIR$/Template/blob_ptr.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Template/blob_ptr_use.h" beforeDir="false" afterPath="$PROJECT_DIR$/Template/blob_ptr_use.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Template/template.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Template/template.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextQurey/query_result.h" beforeDir="false" afterPath="$PROJECT_DIR$/TextQurey/query_result.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextQurey/text_query.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/TextQurey/text_query.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextQurey/text_query.h" beforeDir="false" afterPath="$PROJECT_DIR$/TextQurey/text_query.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CppPrimer.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CppPrimer.dir/CXX.includecache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CppPrimer.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CppPrimer.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CppPrimer.dir/Template/template.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CppPrimer.dir/TextQurey/text_query.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CppPrimer.dir/TextQurey/text_query.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CppPrimer.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CppPrimer.dir/build.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CppPrimer.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CppPrimer.dir/cmake_clean.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CppPrimer.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CppPrimer.dir/depend.internal" afterDir="false" />
@@ -36,7 +37,6 @@
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CppPrimer" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CppPrimer" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CppPrimer.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CppPrimer.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/b.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/b.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -59,8 +59,8 @@
           <entry key="project.open.time.12" value="2" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.8" value="10" />
-          <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="26" />
+          <entry key="project.open.time.9" value="2" />
+          <entry key="project.opened" value="27" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -68,8 +68,8 @@
           <entry key="Makefile" value="1" />
           <entry key="cbp" value="1" />
           <entry key="cmake" value="1" />
-          <entry key="cpp" value="58" />
-          <entry key="h" value="53" />
+          <entry key="cpp" value="61" />
+          <entry key="h" value="58" />
           <entry key="initializer_list" value="1" />
           <entry key="iosfwd" value="2" />
           <entry key="istream" value="1" />
@@ -82,15 +82,15 @@
         <counts>
           <entry key="CMakeCache.txt" value="1" />
           <entry key="CMakeLists.txt" value="14" />
-          <entry key="ObjectiveC" value="113" />
+          <entry key="ObjectiveC" value="121" />
           <entry key="PLAIN_TEXT" value="31" />
           <entry key="Scratch" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cpp" value="15183" />
-          <entry key="h" value="4070" />
+          <entry key="cpp" value="15983" />
+          <entry key="h" value="4266" />
           <entry key="mm" value="6" />
           <entry key="txt" value="228" />
         </counts>
@@ -99,7 +99,7 @@
         <counts>
           <entry key="CMakeLists.txt" value="130" />
           <entry key="Doxygen file" value="3" />
-          <entry key="ObjectiveC" value="19256" />
+          <entry key="ObjectiveC" value="20252" />
           <entry key="PLAIN_TEXT" value="82" />
           <entry key="Scratch" value="16" />
         </counts>
@@ -107,72 +107,76 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="113" column="15" lean-forward="true" selection-start-line="113" selection-start-column="15" selection-end-line="113" selection-end-column="15" />
-              <folding>
-                <element signature="e#38#57#0" expanded="true" />
-                <element signature="e#141#423#0" />
-                <element signature="e#409#626#0" />
-                <element signature="e#628#695#0" />
-                <element signature="e#717#845#0" />
-                <element signature="e#834#1073#0" />
-                <element signature="e#1075#2003#0" />
-                <element signature="e#2029#2225#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cmake-build-debug/b.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TextQurey/text_query.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="48" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
-              <folding>
-                <element signature="e#101#118#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/TextQurey/text_query.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="18" lean-forward="true" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
-              <folding>
-                <element signature="e#38#57#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TextQurey/query_result.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="83" lean-forward="true" selection-start-line="19" selection-start-column="83" selection-end-line="19" selection-end-column="83" />
-              <folding>
-                <element signature="e#105#122#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5083082">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/main.cpp">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="102">
+                  <caret line="6" column="22" lean-forward="true" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+                  <folding>
+                    <element signature="e#38#57#0" expanded="true" />
+                    <element signature="e#141#426#0" />
+                    <element signature="e#428#646#0" />
+                    <element signature="e#648#715#0" />
+                    <element signature="e#717#853#0" />
+                    <element signature="e#855#1095#0" />
+                    <element signature="e#1097#2027#0" />
+                    <element signature="e#2029#2237#0" />
+                    <element signature="e#2239#2301#0" />
+                    <element signature="e#2302#3135#0" />
+                    <element signature="e#3137#3170#0" expanded="true" />
+                    <element signature="e#3207#3250#0" />
+                    <element signature="e#3136#3450#0" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/TextQurey/text_query.cpp">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="340">
+                  <caret line="20" column="60" selection-start-line="20" selection-start-column="60" selection-end-line="20" selection-end-column="60" />
+                  <folding>
+                    <element signature="e#37#55#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/TextQurey/query_result.h">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="221">
+                  <caret line="13" column="66" lean-forward="true" selection-start-line="13" selection-start-column="66" selection-end-line="13" selection-end-column="66" />
+                  <folding>
+                    <element signature="e#0#18#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/TextQurey/query_result.cpp">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="306">
+                  <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+                  <folding>
+                    <element signature="e#38#57#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -219,11 +223,12 @@
         <option value="$PROJECT_DIR$/Template/template.cpp" />
         <option value="$PROJECT_DIR$/Template/blob.h" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/main.cpp" />
         <option value="$PROJECT_DIR$/cmake-build-debug/b.txt" />
+        <option value="$PROJECT_DIR$/TextQurey/text_query.h" />
         <option value="$PROJECT_DIR$/TextQurey/text_query.cpp" />
         <option value="$PROJECT_DIR$/TextQurey/query_result.h" />
-        <option value="$PROJECT_DIR$/TextQurey/text_query.h" />
+        <option value="$PROJECT_DIR$/TextQurey/query_result.cpp" />
+        <option value="$PROJECT_DIR$/main.cpp" />
       </list>
     </option>
   </component>
@@ -234,7 +239,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-3" />
     <option name="y" value="-1" />
     <option name="width" value="1372" />
@@ -248,7 +253,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -259,7 +263,7 @@
             <path>
               <item name="CppPrimer" type="b2602c69:ProjectViewProjectNode" />
               <item name="CppPrimer" type="462c0819:PsiDirectoryNode" />
-              <item name="cmake-build-debug" type="462c0819:PsiDirectoryNode" />
+              <item name="Template" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CppPrimer" type="b2602c69:ProjectViewProjectNode" />
@@ -270,6 +274,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -344,11 +349,12 @@
       <workItem from="1543567030867" duration="7223000" />
       <workItem from="1543874784489" duration="92000" />
       <workItem from="1543961715981" duration="10398000" />
+      <workItem from="1544056508950" duration="3736000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76885000" />
+    <option name="totallyTimeSpent" value="80621000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -360,15 +366,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-3" y="19" width="1372" height="752" extended-state="6" />
+    <frame x="-3" y="-1" width="1372" height="772" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21450152" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.21752267" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32711622" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.38615385" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.56241035" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -377,7 +383,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.3276923" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32923076" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.37846154" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3773314" />
       <window_info anchor="bottom" id="CMake" order="12" weight="0.37076923" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -579,9 +585,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-4505">
           <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
-          <folding>
-            <element signature="e#1978#2033#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -589,10 +592,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1244">
           <caret line="134" column="2" lean-forward="true" selection-start-line="134" selection-start-column="2" selection-end-line="134" selection-end-column="2" />
-          <folding>
-            <element signature="e#2962#2987#0" expanded="true" />
-            <element signature="e#4853#4878#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -600,11 +599,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="65" column="27" lean-forward="true" selection-start-line="65" selection-start-column="27" selection-end-line="65" selection-end-column="27" />
-          <folding>
-            <element signature="e#2960#3869#0" expanded="true" />
-            <element signature="e#5807#5863#0" expanded="true" />
-            <element signature="e#6823#6837#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -612,84 +606,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="141">
           <caret line="59" column="26" selection-start-line="59" selection-start-column="26" selection-end-line="59" selection-end-column="26" />
-          <folding>
-            <element signature="e#2625#2649#0" expanded="true" />
-            <element signature="e#2682#2708#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Template/dynamic_array.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Template/blob_ptr.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
-          <folding>
-            <element signature="e#97#116#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Template/blob_ptr_use.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
-          <caret line="48" column="14" selection-start-line="48" selection-start-column="14" selection-end-line="48" selection-end-column="14" />
-          <folding>
-            <element signature="e#71#83#0" expanded="true" />
-            <element signature="e#936#948#0" expanded="true" />
-            <element signature="e#1055#1067#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Template/blob_use.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
-          <folding>
-            <element signature="e#65#77#0" expanded="true" />
-            <element signature="e#149#161#0" expanded="true" />
-            <element signature="e#262#274#0" expanded="true" />
-            <element signature="e#375#387#0" expanded="true" />
-            <element signature="e#481#493#0" expanded="true" />
-            <element signature="e#649#661#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Template/blob.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="439">
-          <caret line="33" column="2" lean-forward="true" selection-start-line="33" selection-start-column="2" selection-end-line="33" selection-end-column="2" />
-          <folding>
-            <element signature="e#89#106#0" expanded="true" />
-            <element signature="e#135#145#0" expanded="true" />
-            <element signature="e#170#180#0" expanded="true" />
-            <element signature="e#202#214#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Template/dynamic_array.h" />
     <entry file="file://$PROJECT_DIR$/C++11/sharedptr.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="523">
           <caret line="54" column="1" selection-start-line="54" selection-start-column="1" selection-end-line="54" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Template/template.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="830">
-          <caret line="73" lean-forward="true" selection-start-line="73" selection-end-line="73" />
-          <folding>
-            <element signature="e#39#58#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -724,49 +648,122 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="113" column="15" lean-forward="true" selection-start-line="113" selection-start-column="15" selection-end-line="113" selection-end-column="15" />
-          <folding>
-            <element signature="e#38#57#0" expanded="true" />
-            <element signature="e#141#423#0" />
-            <element signature="e#409#626#0" />
-            <element signature="e#628#695#0" />
-            <element signature="e#717#845#0" />
-            <element signature="e#834#1073#0" />
-            <element signature="e#1075#2003#0" />
-            <element signature="e#2029#2225#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TextQurey/text_query.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="48" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
+        <state relative-caret-position="493">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
           <folding>
             <element signature="e#101#118#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/TextQurey/query_result.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="e#38#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/TextQurey/query_result.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="83" lean-forward="true" selection-start-line="19" selection-start-column="83" selection-end-line="19" selection-end-column="83" />
+        <state relative-caret-position="221">
+          <caret line="13" column="66" lean-forward="true" selection-start-line="13" selection-start-column="66" selection-end-line="13" selection-end-column="66" />
           <folding>
-            <element signature="e#105#122#0" expanded="true" />
+            <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TextQurey/text_query.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="18" lean-forward="true" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+        <state relative-caret-position="340">
+          <caret line="20" column="60" selection-start-line="20" selection-start-column="60" selection-end-line="20" selection-end-column="60" />
+          <folding>
+            <element signature="e#37#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Template/template.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Template/blob.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+          <folding>
+            <element signature="e#89#106#0" expanded="true" />
+            <element signature="e#134#144#0" expanded="true" />
+            <element signature="e#169#179#0" expanded="true" />
+            <element signature="e#201#213#0" expanded="true" />
+            <element signature="e#277#289#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Template/blob_ptr.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="11" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
+          <folding>
+            <element signature="e#97#116#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Template/blob_ptr_use.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="48" column="14" selection-start-line="48" selection-start-column="14" selection-end-line="48" selection-end-column="14" />
+          <folding>
+            <element signature="e#71#83#0" expanded="true" />
+            <element signature="e#936#948#0" expanded="true" />
+            <element signature="e#1055#1067#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Template/blob_use.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+          <folding>
+            <element signature="e#65#77#0" expanded="true" />
+            <element signature="e#149#161#0" expanded="true" />
+            <element signature="e#262#274#0" expanded="true" />
+            <element signature="e#375#387#0" expanded="true" />
+            <element signature="e#481#493#0" expanded="true" />
+            <element signature="e#649#661#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="22" lean-forward="true" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
           <folding>
             <element signature="e#38#57#0" expanded="true" />
+            <element signature="e#141#426#0" />
+            <element signature="e#428#646#0" />
+            <element signature="e#648#715#0" />
+            <element signature="e#717#853#0" />
+            <element signature="e#855#1095#0" />
+            <element signature="e#1097#2027#0" />
+            <element signature="e#2029#2237#0" />
+            <element signature="e#2239#2301#0" />
+            <element signature="e#2302#3135#0" />
+            <element signature="e#3137#3170#0" expanded="true" />
+            <element signature="e#3207#3250#0" />
+            <element signature="e#3136#3450#0" />
           </folding>
         </state>
       </provider>

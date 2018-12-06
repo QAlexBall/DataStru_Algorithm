@@ -150,6 +150,33 @@ C++11/StarBlob.cpp.s:
 	$(MAKE) -f CMakeFiles/CppPrimer.dir/build.make CMakeFiles/CppPrimer.dir/C++11/StarBlob.cpp.s
 .PHONY : C++11/StarBlob.cpp.s
 
+TextQurey/query_result.o: TextQurey/query_result.cpp.o
+
+.PHONY : TextQurey/query_result.o
+
+# target to build an object file
+TextQurey/query_result.cpp.o:
+	$(MAKE) -f CMakeFiles/CppPrimer.dir/build.make CMakeFiles/CppPrimer.dir/TextQurey/query_result.cpp.o
+.PHONY : TextQurey/query_result.cpp.o
+
+TextQurey/query_result.i: TextQurey/query_result.cpp.i
+
+.PHONY : TextQurey/query_result.i
+
+# target to preprocess a source file
+TextQurey/query_result.cpp.i:
+	$(MAKE) -f CMakeFiles/CppPrimer.dir/build.make CMakeFiles/CppPrimer.dir/TextQurey/query_result.cpp.i
+.PHONY : TextQurey/query_result.cpp.i
+
+TextQurey/query_result.s: TextQurey/query_result.cpp.s
+
+.PHONY : TextQurey/query_result.s
+
+# target to generate assembly for a file
+TextQurey/query_result.cpp.s:
+	$(MAKE) -f CMakeFiles/CppPrimer.dir/build.make CMakeFiles/CppPrimer.dir/TextQurey/query_result.cpp.s
+.PHONY : TextQurey/query_result.cpp.s
+
 TextQurey/text_query.o: TextQurey/text_query.cpp.o
 
 .PHONY : TextQurey/text_query.o
@@ -216,6 +243,9 @@ help:
 	@echo "... C++11/StarBlob.o"
 	@echo "... C++11/StarBlob.i"
 	@echo "... C++11/StarBlob.s"
+	@echo "... TextQurey/query_result.o"
+	@echo "... TextQurey/query_result.i"
+	@echo "... TextQurey/query_result.s"
 	@echo "... TextQurey/text_query.o"
 	@echo "... TextQurey/text_query.i"
 	@echo "... TextQurey/text_query.s"

@@ -124,6 +124,19 @@ void allocator_test() {
 
     alloc.deallocate(p, static_cast<unsigned long>(n)); // 释放内存
 }
+
+#include "TextQurey/text_query.h"
+#include "TextQurey/query_result.h"
+void run_queries(ifstream &infile) {
+    TextQuery text_query(infile);
+    while (true) {
+        cout << "enter word to look for, or q to quit: ";
+        string s;
+        if (!(cin >> s) || s == "q") break;
+        print(cout, text_query.query(s)) << endl;
+    }
+}
+
 int main () {
     use_vector();
     unique_ptr_test();
@@ -139,6 +152,7 @@ int main () {
     while (getline(is1, text1)) {
         cout << text1 << endl;
     }
-
+    ifstream is2("b.txt");
+    run_queries(is2);
     return 0;
 }

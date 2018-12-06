@@ -102,6 +102,9 @@
 		<Unit filename="/home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimer/Template/blob_use.h">
 			<Option target="CppPrimer"/>
 		</Unit>
+		<Unit filename="/home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimer/TextQurey/query_result.cpp">
+			<Option target="CppPrimer"/>
+		</Unit>
 		<Unit filename="/home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimer/TextQurey/query_result.h">
 			<Option target="CppPrimer"/>
 		</Unit>

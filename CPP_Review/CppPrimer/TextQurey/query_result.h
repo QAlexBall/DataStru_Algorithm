@@ -1,4 +1,5 @@
 #include <utility>
+#include <regex>
 
 //
 // Created by alex on 12/5/18.
@@ -7,9 +8,7 @@
 #ifndef CPPPRIMER_QUERY_RESULT_H
 #define CPPPRIMER_QUERY_RESULT_H
 
-#include <iosfwd>
-#include "text_query.h"
-
+#include <set>
 class QueryResult {
     using line_no = std::vector<std::string>::size_type;
     friend std::ostream& print(std::ostream&, const QueryResult&);

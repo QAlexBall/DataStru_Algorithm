@@ -10,7 +10,7 @@
 #include <memory>
 #include <map>
 #include <set>
-#include "query_result.h"
+class QueryResult;
 class TextQuery {
  public:
     using line_no = std::vector<std::string>::size_type;
