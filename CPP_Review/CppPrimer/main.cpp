@@ -5,6 +5,7 @@
 #include <vector>
 #include <memory>
 #include "OOP/quote.h"
+
 //using namespace std;
 
 void in_out() {
@@ -137,22 +138,39 @@ void run_queries(ifstream &infile) {
     }
 }
 
+void test_point_array() {
+    int a[5] = {1, 2, 3, 4, 5};
+    int b[5] = {10, 20, 30, 40, 50};
+    int (*p)[5];    // 数组指针
+    p = &a;
+    int (*p1)[5];   // 数组指针
+    p1 = &b;
+    int *(q[5]);      // 指针数组, 此例中有五个指针
+    q[0] = *p;
+    q[1] = *p1;
+    cout << (*p)[0] << endl;
+    cout << q[0][3] << endl;
+    cout << q[1][3] << endl;
+}
 int main () {
-    use_vector();
-    unique_ptr_test();
-    allocator_test();
-
-    string text;
-    ifstream is("a.txt");
-    while (is >> text) {
-        cout << text << endl;
-    }
-    ifstream is1("b.txt");
-    string text1;
-    while (getline(is1, text1)) {
-        cout << text1 << endl;
-    }
-    ifstream is2("b.txt");
-    run_queries(is2);
+//    use_vector();
+//    unique_ptr_test();
+//    allocator_test();
+//
+//    string text;
+//    ifstream is("a.txt");
+//    while (is >> text) {
+//        cout << text << endl;
+//    }
+//    ifstream is1("b.txt");
+//    string text1;
+//    while (getline(is1, text1)) {
+//        cout << text1 << endl;
+//    }
+//    ifstream is2("b.txt");
+//    run_queries(is2);
+//#include "OOP/test.h"
+//    A a;'
+    test_point_array();
     return 0;
 }
