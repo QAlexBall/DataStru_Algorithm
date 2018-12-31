@@ -1,3 +1,6 @@
 /home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimer/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 /home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimer/cmake-build-debug/CMakeFiles/CppPrimer.dir
 /home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimer/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimer/cmake-build-debug/TextQurey/CMakeFiles/rebuild_cache.dir
+/home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimer/cmake-build-debug/TextQurey/CMakeFiles/Text.dir
+/home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimer/cmake-build-debug/TextQurey/CMakeFiles/edit_cache.dir

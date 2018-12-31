@@ -6,5 +6,5 @@ CXX_FLAGS = -g   -std=gnu++11
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = 
+CXX_INCLUDES = -I/home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimer/TextQurey 
 

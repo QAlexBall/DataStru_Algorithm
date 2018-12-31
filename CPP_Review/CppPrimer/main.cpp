@@ -5,6 +5,8 @@
 #include <vector>
 #include <memory>
 #include "OOP/quote.h"
+#include "C++11/namespace.h"
+using namespace test;
 
 //using namespace std;
 
@@ -152,6 +154,20 @@ void test_point_array() {
     cout << q[0][3] << endl;
     cout << q[1][3] << endl;
 }
+
+// 第一个命名空间
+namespace first_space{
+    void func(){
+        cout << "Inside first_space" << endl;
+    }
+}
+// 第二个命名空间
+namespace second_space{
+    void func(){
+        cout << "Inside second_space" << endl;
+    }
+}
+
 int main () {
 //    use_vector();
 //    unique_ptr_test();
@@ -172,5 +188,12 @@ int main () {
 //#include "OOP/test.h"
 //    A a;'
     test_point_array();
+
+    first_space::func();
+    second_space::func();
+    Test t(3);
+    t.print();
+    show();
+
     return 0;
 }

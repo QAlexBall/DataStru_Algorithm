@@ -217,11 +217,29 @@ CppPrimer_BINARY_DIR:STATIC=/home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/C
 //Value Computed by CMake
 CppPrimer_SOURCE_DIR:STATIC=/home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimer
 
+//Value Computed by CMake
+Demo4_BINARY_DIR:STATIC=/home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimer/cmake-build-debug
+
+//Value Computed by CMake
+Demo4_SOURCE_DIR:STATIC=/home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimer
+
 //Path to a program.
 ProcessorCount_cmd_getconf:FILEPATH=/usr/bin/getconf
 
 //Path to a program.
 ProcessorCount_cmd_sysctl:FILEPATH=/sbin/sysctl
+
+//Value Computed by CMake
+Project_BINARY_DIR:STATIC=/home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimer/cmake-build-debug
+
+//Value Computed by CMake
+Project_SOURCE_DIR:STATIC=/home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimer
+
+//Use provided math implementation
+USE_MYMATH:BOOL=ON
+
+//Use provided text implementation
+USE_MYTEXT:BOOL=ON
 
 
 ########################
@@ -332,7 +350,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=1
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=2
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

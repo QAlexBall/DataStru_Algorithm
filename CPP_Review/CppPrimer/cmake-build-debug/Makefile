@@ -123,86 +123,45 @@ CppPrimer/fast:
 	$(MAKE) -f CMakeFiles/CppPrimer.dir/build.make CMakeFiles/CppPrimer.dir/build
 .PHONY : CppPrimer/fast
 
-C++11/StarBlob.o: C++11/StarBlob.cpp.o
+#=============================================================================
+# Target rules for targets named Text
 
-.PHONY : C++11/StarBlob.o
+# Build rule for target.
+Text: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Text
+.PHONY : Text
 
-# target to build an object file
-C++11/StarBlob.cpp.o:
-	$(MAKE) -f CMakeFiles/CppPrimer.dir/build.make CMakeFiles/CppPrimer.dir/C++11/StarBlob.cpp.o
-.PHONY : C++11/StarBlob.cpp.o
+# fast build rule for target.
+Text/fast:
+	$(MAKE) -f TextQurey/CMakeFiles/Text.dir/build.make TextQurey/CMakeFiles/Text.dir/build
+.PHONY : Text/fast
 
-C++11/StarBlob.i: C++11/StarBlob.cpp.i
+BTree.o: BTree.cpp.o
 
-.PHONY : C++11/StarBlob.i
-
-# target to preprocess a source file
-C++11/StarBlob.cpp.i:
-	$(MAKE) -f CMakeFiles/CppPrimer.dir/build.make CMakeFiles/CppPrimer.dir/C++11/StarBlob.cpp.i
-.PHONY : C++11/StarBlob.cpp.i
-
-C++11/StarBlob.s: C++11/StarBlob.cpp.s
-
-.PHONY : C++11/StarBlob.s
-
-# target to generate assembly for a file
-C++11/StarBlob.cpp.s:
-	$(MAKE) -f CMakeFiles/CppPrimer.dir/build.make CMakeFiles/CppPrimer.dir/C++11/StarBlob.cpp.s
-.PHONY : C++11/StarBlob.cpp.s
-
-TextQurey/query_result.o: TextQurey/query_result.cpp.o
-
-.PHONY : TextQurey/query_result.o
+.PHONY : BTree.o
 
 # target to build an object file
-TextQurey/query_result.cpp.o:
-	$(MAKE) -f CMakeFiles/CppPrimer.dir/build.make CMakeFiles/CppPrimer.dir/TextQurey/query_result.cpp.o
-.PHONY : TextQurey/query_result.cpp.o
+BTree.cpp.o:
+	$(MAKE) -f CMakeFiles/CppPrimer.dir/build.make CMakeFiles/CppPrimer.dir/BTree.cpp.o
+.PHONY : BTree.cpp.o
 
-TextQurey/query_result.i: TextQurey/query_result.cpp.i
+BTree.i: BTree.cpp.i
 
-.PHONY : TextQurey/query_result.i
-
-# target to preprocess a source file
-TextQurey/query_result.cpp.i:
-	$(MAKE) -f CMakeFiles/CppPrimer.dir/build.make CMakeFiles/CppPrimer.dir/TextQurey/query_result.cpp.i
-.PHONY : TextQurey/query_result.cpp.i
-
-TextQurey/query_result.s: TextQurey/query_result.cpp.s
-
-.PHONY : TextQurey/query_result.s
-
-# target to generate assembly for a file
-TextQurey/query_result.cpp.s:
-	$(MAKE) -f CMakeFiles/CppPrimer.dir/build.make CMakeFiles/CppPrimer.dir/TextQurey/query_result.cpp.s
-.PHONY : TextQurey/query_result.cpp.s
-
-TextQurey/text_query.o: TextQurey/text_query.cpp.o
-
-.PHONY : TextQurey/text_query.o
-
-# target to build an object file
-TextQurey/text_query.cpp.o:
-	$(MAKE) -f CMakeFiles/CppPrimer.dir/build.make CMakeFiles/CppPrimer.dir/TextQurey/text_query.cpp.o
-.PHONY : TextQurey/text_query.cpp.o
-
-TextQurey/text_query.i: TextQurey/text_query.cpp.i
-
-.PHONY : TextQurey/text_query.i
+.PHONY : BTree.i
 
 # target to preprocess a source file
-TextQurey/text_query.cpp.i:
-	$(MAKE) -f CMakeFiles/CppPrimer.dir/build.make CMakeFiles/CppPrimer.dir/TextQurey/text_query.cpp.i
-.PHONY : TextQurey/text_query.cpp.i
+BTree.cpp.i:
+	$(MAKE) -f CMakeFiles/CppPrimer.dir/build.make CMakeFiles/CppPrimer.dir/BTree.cpp.i
+.PHONY : BTree.cpp.i
 
-TextQurey/text_query.s: TextQurey/text_query.cpp.s
+BTree.s: BTree.cpp.s
 
-.PHONY : TextQurey/text_query.s
+.PHONY : BTree.s
 
 # target to generate assembly for a file
-TextQurey/text_query.cpp.s:
-	$(MAKE) -f CMakeFiles/CppPrimer.dir/build.make CMakeFiles/CppPrimer.dir/TextQurey/text_query.cpp.s
-.PHONY : TextQurey/text_query.cpp.s
+BTree.cpp.s:
+	$(MAKE) -f CMakeFiles/CppPrimer.dir/build.make CMakeFiles/CppPrimer.dir/BTree.cpp.s
+.PHONY : BTree.cpp.s
 
 main.o: main.cpp.o
 
@@ -240,15 +199,10 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... CppPrimer"
 	@echo "... edit_cache"
-	@echo "... C++11/StarBlob.o"
-	@echo "... C++11/StarBlob.i"
-	@echo "... C++11/StarBlob.s"
-	@echo "... TextQurey/query_result.o"
-	@echo "... TextQurey/query_result.i"
-	@echo "... TextQurey/query_result.s"
-	@echo "... TextQurey/text_query.o"
-	@echo "... TextQurey/text_query.i"
-	@echo "... TextQurey/text_query.s"
+	@echo "... Text"
+	@echo "... BTree.o"
+	@echo "... BTree.i"
+	@echo "... BTree.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

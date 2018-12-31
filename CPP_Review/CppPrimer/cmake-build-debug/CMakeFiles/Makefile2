@@ -68,10 +68,10 @@ CMAKE_BINARY_DIR = /home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimer/
 # Target rules for target CMakeFiles/CppPrimer.dir
 
 # All Build rule for target.
-CMakeFiles/CppPrimer.dir/all:
+CMakeFiles/CppPrimer.dir/all: TextQurey/CMakeFiles/Text.dir/all
 	$(MAKE) -f CMakeFiles/CppPrimer.dir/build.make CMakeFiles/CppPrimer.dir/depend
 	$(MAKE) -f CMakeFiles/CppPrimer.dir/build.make CMakeFiles/CppPrimer.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimer/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5 "Built target CppPrimer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimer/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target CppPrimer"
 .PHONY : CMakeFiles/CppPrimer.dir/all
 
 # Include target in all.
@@ -81,7 +81,7 @@ all: CMakeFiles/CppPrimer.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/CppPrimer.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimer/cmake-build-debug/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimer/cmake-build-debug/CMakeFiles 6
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/CppPrimer.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimer/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/CppPrimer.dir/rule
@@ -98,6 +98,61 @@ CMakeFiles/CppPrimer.dir/clean:
 
 # clean rule for target.
 clean: CMakeFiles/CppPrimer.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory TextQurey
+
+# Convenience name for "all" pass in the directory.
+TextQurey/all: TextQurey/CMakeFiles/Text.dir/all
+
+.PHONY : TextQurey/all
+
+# Convenience name for "clean" pass in the directory.
+TextQurey/clean: TextQurey/CMakeFiles/Text.dir/clean
+
+.PHONY : TextQurey/clean
+
+# Convenience name for "preinstall" pass in the directory.
+TextQurey/preinstall:
+
+.PHONY : TextQurey/preinstall
+
+#=============================================================================
+# Target rules for target TextQurey/CMakeFiles/Text.dir
+
+# All Build rule for target.
+TextQurey/CMakeFiles/Text.dir/all:
+	$(MAKE) -f TextQurey/CMakeFiles/Text.dir/build.make TextQurey/CMakeFiles/Text.dir/depend
+	$(MAKE) -f TextQurey/CMakeFiles/Text.dir/build.make TextQurey/CMakeFiles/Text.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimer/cmake-build-debug/CMakeFiles --progress-num=4,5,6 "Built target Text"
+.PHONY : TextQurey/CMakeFiles/Text.dir/all
+
+# Include target in all.
+all: TextQurey/CMakeFiles/Text.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+TextQurey/CMakeFiles/Text.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimer/cmake-build-debug/CMakeFiles 3
+	$(MAKE) -f CMakeFiles/Makefile2 TextQurey/CMakeFiles/Text.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimer/cmake-build-debug/CMakeFiles 0
+.PHONY : TextQurey/CMakeFiles/Text.dir/rule
+
+# Convenience name for target.
+Text: TextQurey/CMakeFiles/Text.dir/rule
+
+.PHONY : Text
+
+# clean rule for target.
+TextQurey/CMakeFiles/Text.dir/clean:
+	$(MAKE) -f TextQurey/CMakeFiles/Text.dir/build.make TextQurey/CMakeFiles/Text.dir/clean
+.PHONY : TextQurey/CMakeFiles/Text.dir/clean
+
+# clean rule for target.
+clean: TextQurey/CMakeFiles/Text.dir/clean
 
 .PHONY : clean
 

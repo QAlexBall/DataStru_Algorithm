@@ -28,9 +28,11 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/home/alex/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/183.4588.63/bin/cmake/linux/share/cmake-3.13/Modules/Platform/UnixPaths.cmake"
   "/home/alex/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/183.4588.63/bin/cmake/linux/share/cmake-3.13/Modules/ProcessorCount.cmake"
   "../CMakeLists.txt"
+  "../TextQurey/CMakeLists.txt"
   "CMakeFiles/3.13.1/CMakeCCompiler.cmake"
   "CMakeFiles/3.13.1/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.13.1/CMakeSystem.cmake"
+  "../config.h.in"
   )
 
 # The corresponding makefile is:
@@ -41,10 +43,13 @@ set(CMAKE_MAKEFILE_OUTPUTS
 
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
+  "config.h"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
+  "TextQurey/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/CppPrimer.dir/DependInfo.cmake"
+  "TextQurey/CMakeFiles/Text.dir/DependInfo.cmake"
   )

@@ -57,9 +57,22 @@ include CMakeFiles/CppPrimer.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/CppPrimer.dir/flags.make
 
+CMakeFiles/CppPrimer.dir/BTree.cpp.o: CMakeFiles/CppPrimer.dir/flags.make
+CMakeFiles/CppPrimer.dir/BTree.cpp.o: ../BTree.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CppPrimer.dir/BTree.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CppPrimer.dir/BTree.cpp.o -c /home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimer/BTree.cpp
+
+CMakeFiles/CppPrimer.dir/BTree.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CppPrimer.dir/BTree.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimer/BTree.cpp > CMakeFiles/CppPrimer.dir/BTree.cpp.i
+
+CMakeFiles/CppPrimer.dir/BTree.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CppPrimer.dir/BTree.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimer/BTree.cpp -o CMakeFiles/CppPrimer.dir/BTree.cpp.s
+
 CMakeFiles/CppPrimer.dir/main.cpp.o: CMakeFiles/CppPrimer.dir/flags.make
 CMakeFiles/CppPrimer.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CppPrimer.dir/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/CppPrimer.dir/main.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CppPrimer.dir/main.cpp.o -c /home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimer/main.cpp
 
 CMakeFiles/CppPrimer.dir/main.cpp.i: cmake_force
@@ -70,62 +83,20 @@ CMakeFiles/CppPrimer.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CppPrimer.dir/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimer/main.cpp -o CMakeFiles/CppPrimer.dir/main.cpp.s
 
-CMakeFiles/CppPrimer.dir/C++11/StarBlob.cpp.o: CMakeFiles/CppPrimer.dir/flags.make
-CMakeFiles/CppPrimer.dir/C++11/StarBlob.cpp.o: ../C++11/StarBlob.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/CppPrimer.dir/C++11/StarBlob.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CppPrimer.dir/C++11/StarBlob.cpp.o -c /home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimer/C++11/StarBlob.cpp
-
-CMakeFiles/CppPrimer.dir/C++11/StarBlob.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CppPrimer.dir/C++11/StarBlob.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimer/C++11/StarBlob.cpp > CMakeFiles/CppPrimer.dir/C++11/StarBlob.cpp.i
-
-CMakeFiles/CppPrimer.dir/C++11/StarBlob.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CppPrimer.dir/C++11/StarBlob.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimer/C++11/StarBlob.cpp -o CMakeFiles/CppPrimer.dir/C++11/StarBlob.cpp.s
-
-CMakeFiles/CppPrimer.dir/TextQurey/text_query.cpp.o: CMakeFiles/CppPrimer.dir/flags.make
-CMakeFiles/CppPrimer.dir/TextQurey/text_query.cpp.o: ../TextQurey/text_query.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/CppPrimer.dir/TextQurey/text_query.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CppPrimer.dir/TextQurey/text_query.cpp.o -c /home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimer/TextQurey/text_query.cpp
-
-CMakeFiles/CppPrimer.dir/TextQurey/text_query.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CppPrimer.dir/TextQurey/text_query.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimer/TextQurey/text_query.cpp > CMakeFiles/CppPrimer.dir/TextQurey/text_query.cpp.i
-
-CMakeFiles/CppPrimer.dir/TextQurey/text_query.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CppPrimer.dir/TextQurey/text_query.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimer/TextQurey/text_query.cpp -o CMakeFiles/CppPrimer.dir/TextQurey/text_query.cpp.s
-
-CMakeFiles/CppPrimer.dir/TextQurey/query_result.cpp.o: CMakeFiles/CppPrimer.dir/flags.make
-CMakeFiles/CppPrimer.dir/TextQurey/query_result.cpp.o: ../TextQurey/query_result.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/CppPrimer.dir/TextQurey/query_result.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CppPrimer.dir/TextQurey/query_result.cpp.o -c /home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimer/TextQurey/query_result.cpp
-
-CMakeFiles/CppPrimer.dir/TextQurey/query_result.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CppPrimer.dir/TextQurey/query_result.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimer/TextQurey/query_result.cpp > CMakeFiles/CppPrimer.dir/TextQurey/query_result.cpp.i
-
-CMakeFiles/CppPrimer.dir/TextQurey/query_result.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CppPrimer.dir/TextQurey/query_result.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimer/TextQurey/query_result.cpp -o CMakeFiles/CppPrimer.dir/TextQurey/query_result.cpp.s
-
 # Object files for target CppPrimer
 CppPrimer_OBJECTS = \
-"CMakeFiles/CppPrimer.dir/main.cpp.o" \
-"CMakeFiles/CppPrimer.dir/C++11/StarBlob.cpp.o" \
-"CMakeFiles/CppPrimer.dir/TextQurey/text_query.cpp.o" \
-"CMakeFiles/CppPrimer.dir/TextQurey/query_result.cpp.o"
+"CMakeFiles/CppPrimer.dir/BTree.cpp.o" \
+"CMakeFiles/CppPrimer.dir/main.cpp.o"
 
 # External object files for target CppPrimer
 CppPrimer_EXTERNAL_OBJECTS =
 
+CppPrimer: CMakeFiles/CppPrimer.dir/BTree.cpp.o
 CppPrimer: CMakeFiles/CppPrimer.dir/main.cpp.o
-CppPrimer: CMakeFiles/CppPrimer.dir/C++11/StarBlob.cpp.o
-CppPrimer: CMakeFiles/CppPrimer.dir/TextQurey/text_query.cpp.o
-CppPrimer: CMakeFiles/CppPrimer.dir/TextQurey/query_result.cpp.o
 CppPrimer: CMakeFiles/CppPrimer.dir/build.make
+CppPrimer: TextQurey/libText.a
 CppPrimer: CMakeFiles/CppPrimer.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable CppPrimer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/alex/WorkPlace/DataStru_Algorithm/CPP_Review/CppPrimer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable CppPrimer"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/CppPrimer.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libText.a  CMakeFiles/Text.dir/query_result.cpp.o CMakeFiles/Text.dir/text_query.cpp.o
+/usr/bin/ranlib libText.a

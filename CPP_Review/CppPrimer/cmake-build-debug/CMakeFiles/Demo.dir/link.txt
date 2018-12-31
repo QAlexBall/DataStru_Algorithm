@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Demo.dir/BTree.cpp.o CMakeFiles/Demo.dir/main.cpp.o CMakeFiles/Demo.dir/main1.cpp.o  -o Demo math/libMathFunctions.a 
