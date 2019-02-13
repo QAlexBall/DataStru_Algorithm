@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="false">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated />
   </component>
   <component name="CMakeSettings">
@@ -10,28 +10,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="192d453d-a495-44e8-bba3-567e64c097bf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/CPP_Review/CppPrimer/C++11/StarBlob.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CPP_Review/CppPrimer/C++11/StarBlob.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CPP_Review/CppPrimer/C++11/sharedptr.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CPP_Review/CppPrimer/.idea/dictionaries/alex.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CPP_Review/CppPrimer/.idea/dictionaries/alex.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode/Solutions.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CPP_Review/CppPrimer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CPP_Review/CppPrimer/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CPP_Review/CppPrimer/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CPP_Review/CppPrimer/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CPP_Review/CppPrimer/Template/template.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/CPP_Review/CppPrimer/Template/template.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CPP_Review/CppPrimer/cmake-build-debug/CMakeFiles/CppPrimer.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/CPP_Review/CppPrimer/cmake-build-debug/CMakeFiles/CppPrimer.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CPP_Review/CppPrimer/cmake-build-debug/CMakeFiles/CppPrimer.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/CPP_Review/CppPrimer/cmake-build-debug/CMakeFiles/CppPrimer.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CPP_Review/CppPrimer/cmake-build-debug/CMakeFiles/CppPrimer.dir/Template/template.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/CPP_Review/CppPrimer/cmake-build-debug/CMakeFiles/CppPrimer.dir/Template/template.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CPP_Review/CppPrimer/cmake-build-debug/CMakeFiles/CppPrimer.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/CPP_Review/CppPrimer/cmake-build-debug/CMakeFiles/CppPrimer.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CPP_Review/CppPrimer/cmake-build-debug/CMakeFiles/CppPrimer.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/CPP_Review/CppPrimer/cmake-build-debug/CMakeFiles/CppPrimer.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CPP_Review/CppPrimer/cmake-build-debug/CMakeFiles/CppPrimer.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/CPP_Review/CppPrimer/cmake-build-debug/CMakeFiles/CppPrimer.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CPP_Review/CppPrimer/cmake-build-debug/CMakeFiles/CppPrimer.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/CPP_Review/CppPrimer/cmake-build-debug/CMakeFiles/CppPrimer.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CPP_Review/CppPrimer/cmake-build-debug/CMakeFiles/CppPrimer.dir/BTree.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/CPP_Review/CppPrimer/cmake-build-debug/CMakeFiles/CppPrimer.dir/BTree.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CPP_Review/CppPrimer/cmake-build-debug/CMakeFiles/CppPrimer.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/CPP_Review/CppPrimer/cmake-build-debug/CMakeFiles/CppPrimer.dir/flags.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CPP_Review/CppPrimer/cmake-build-debug/CMakeFiles/CppPrimer.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CPP_Review/CppPrimer/cmake-build-debug/CMakeFiles/CppPrimer.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CPP_Review/CppPrimer/cmake-build-debug/CMakeFiles/CppPrimer.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/CPP_Review/CppPrimer/cmake-build-debug/CMakeFiles/CppPrimer.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CPP_Review/CppPrimer/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/CPP_Review/CppPrimer/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CPP_Review/CppPrimer/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/CPP_Review/CppPrimer/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CPP_Review/CppPrimer/cmake-build-debug/CMakeFiles/CppPrimer.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/CPP_Review/CppPrimer/cmake-build-debug/CMakeFiles/CppPrimer.dir/main.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CPP_Review/CppPrimer/cmake-build-debug/CppPrimer" beforeDir="false" afterPath="$PROJECT_DIR$/CPP_Review/CppPrimer/cmake-build-debug/CppPrimer" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CPP_Review/CppPrimer/cmake-build-debug/CppPrimer.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/CPP_Review/CppPrimer/cmake-build-debug/CppPrimer.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CPP_Review/CppPrimer/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/CPP_Review/CppPrimer/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CPP_Review/CppPrimerPlus/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CPP_Review/CppPrimerPlus/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CPP_Review/CppPrimer/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/CPP_Review/CppPrimer/main.cpp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,48 +29,18 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="227270311">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="3" />
-          <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="3" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="c" value="21" />
-          <entry key="cpp" value="5" />
-          <entry key="h" value="3" />
-          <entry key="txt" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="CMakeLists.txt" value="1" />
-          <entry key="ObjectiveC" value="29" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="c" value="2" />
-          <entry key="cpp" value="3" />
-          <entry key="txt" value="9" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="CMakeLists.txt" value="9" />
-          <entry key="ObjectiveC" value="5" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/LeetCode/Solutions.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -101,15 +61,11 @@
       </list>
     </option>
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="width" value="683" />
-    <option name="height" value="768" />
+  <component name="ProjectFrameBounds" extendedState="4">
+    <option name="x" value="960" />
+    <option name="y" value="20" />
+    <option name="width" value="960" />
+    <option name="height" value="1060" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -126,6 +82,11 @@
             <path>
               <item name="DataStru_Algorithm" type="b2602c69:ProjectViewProjectNode" />
               <item name="DataStru_Algorithm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DataStru_Algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DataStru_Algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -164,16 +125,17 @@
       <workItem from="1540800789937" duration="75000" />
       <workItem from="1540876997192" duration="30000" />
       <workItem from="1543545720644" duration="907000" />
+      <workItem from="1550101183702" duration="39000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1012000" />
+    <option name="totallyTimeSpent" value="1051000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-3" y="-1" width="1372" height="772" extended-state="6" />
+    <frame x="960" y="20" width="960" height="1060" extended-state="4" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25755286" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.5350877" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -195,9 +157,6 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/DataStructure/Graph/ALGraph.cpp">
@@ -333,6 +292,13 @@
     <entry file="file://$PROJECT_DIR$/DataStructure/Graph/Dijkstra.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-160" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode/Solutions.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
       </provider>
     </entry>
   </component>

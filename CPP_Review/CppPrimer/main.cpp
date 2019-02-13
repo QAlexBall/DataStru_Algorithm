@@ -57,9 +57,11 @@ void use_decltype() {
 
     const int a = 1;
     decltype(a) b = a;
+    cout << b << endl;
     // b = 3; err, decltype会保留底层const和顶层const
     auto c = a;
     c = 3; // right, auto会忽略底层const
+    cout << c << endl;
 }
 
 void const_up_down() {
@@ -67,7 +69,7 @@ void const_up_down() {
     const int *p_c = &num_c;  //p_c为底层const的指针
     // int *p_d = p_c;  //错误，不能将底层const指针赋值给非底层const指针
     const int *p_d = p_c; //正确，可以将底层const指针复制给底层const指针
-
+    cout << *p_d << endl;
     int num_e = 4;
     const int *p_e = &num_e;
     // *p_e = 5;  //错误，不能改变底层const指针指向的内容

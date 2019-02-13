@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/CppPrimer.dir/BTree.cpp.o CMakeFiles/CppPrimer.dir/main.cpp.o  -o CppPrimer TextQurey/libText.a 
+/usr/bin/c++   -O0 -Wall -g -ggdb   CMakeFiles/CppPrimer.dir/BTree.cpp.o CMakeFiles/CppPrimer.dir/main.cpp.o  -o CppPrimer TextQurey/libText.a 
