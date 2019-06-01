@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/derenzhu/Desktop/github/my_github/DataStru_Algorithm/cmake_test/demo1/main.cc
+stdio.h
+-
+stdlib.h
+-
+
