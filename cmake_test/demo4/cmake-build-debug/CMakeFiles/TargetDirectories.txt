@@ -1,0 +1,6 @@
+/Users/derenzhu/Desktop/github/my_github/DataStru_Algorithm/cmake_test/demo4/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/derenzhu/Desktop/github/my_github/DataStru_Algorithm/cmake_test/demo4/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/derenzhu/Desktop/github/my_github/DataStru_Algorithm/cmake_test/demo4/cmake-build-debug/CMakeFiles/demo.dir
+/Users/derenzhu/Desktop/github/my_github/DataStru_Algorithm/cmake_test/demo4/cmake-build-debug/math/CMakeFiles/rebuild_cache.dir
+/Users/derenzhu/Desktop/github/my_github/DataStru_Algorithm/cmake_test/demo4/cmake-build-debug/math/CMakeFiles/edit_cache.dir
+/Users/derenzhu/Desktop/github/my_github/DataStru_Algorithm/cmake_test/demo4/cmake-build-debug/math/CMakeFiles/MathFunctions.dir

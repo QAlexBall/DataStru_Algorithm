@@ -1,0 +1,8 @@
+"/Users/derenzhu/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/CLion.app/Contents/bin/cmake/mac/bin/cmake" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/derenzhu/Desktop/github/my_github/DataStru_Algorithm/cmake_test/demo4
+CMake Error: File /Users/derenzhu/Desktop/github/my_github/DataStru_Algorithm/cmake_test/demo4/config.h.in does not exist.
+CMake Error at CMakeLists.txt:7 (configure_file):
+  configure_file Problem configuring file
+
+
+-- Configuring incomplete, errors occurred!
+See also "/Users/derenzhu/Desktop/github/my_github/DataStru_Algorithm/cmake_test/demo4/cmake-build-debug/CMakeFiles/CMakeOutput.log".
